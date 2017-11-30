@@ -63,9 +63,9 @@ Select Manage Nuget Packages
 
 ![Visual Studio Manage NuGet](images/VSManageNuGet.jpg)
 
-Browse and Install Xamarin.Forms.Platform.WPF by John Russell
+Browse and Install IndigoOlive.Xamarin.Forms.Platform.WPF by John Russell
 
-![Visual Studio Add WPF NuGet](images/AddXamarinWPF_Maps.jpg)
+![Visual Studio Add WPF NuGet](images/AddXamarinWPF_B.jpg)
 
 Accept the license agreement.
 
