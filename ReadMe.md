@@ -55,7 +55,7 @@ Give the project the name: SampleMapsApp.WPF
 
 Finally press Ok.
 
-### Add the Xamarin.Forms.Platform.WPF Nuget to the WPF Application
+### Add the IndigoOlive.Xamarin.Forms.Platform.WPF Nuget to the WPF Application
 
 Right click the SampleMapsApp.WPF project.
 
