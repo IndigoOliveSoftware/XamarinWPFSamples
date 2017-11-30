@@ -1,13 +1,13 @@
-#XamarinWPFSamples
+# XamarinWPFSamples
 
 The samples in this repository demonstrate how to use the Visual Studio NuGet Package IndigoOlive.Xamarin.Forms.Platform.WPF and the NuGet Package IndigoOlive.Xamarin.Forms.Maps.WPF.
 
 If you are a seasoned developer, the you only need to make sure that the secions below titled: "Modify App.xaml", "Modify App.xaml.cs" and "Add CustomMapRenderer" are completed.  The rest of this should be
 second hand, and is just here as a reference.
 
-##Getting Started
+## Getting Started
 
-###Create the Xamarin.Forms SampleMapsApp
+### Create the Xamarin.Forms SampleMapsApp
 
 Open Microsoft Visual Studio
 
@@ -21,7 +21,7 @@ Select Master Detail and PCL type project and click Finish.
 
 ![Xamarin Selections](images/XamarinChoice.jpg)
 
-###Add the WPF project
+### Add the WPF project
 
 Add a new project to the solution.
 
@@ -55,7 +55,7 @@ Give the project the name: SampleMapsApp.WPF
 
 Finally press Ok.
 
-###Add the Xamarin.Forms.Platform.WPF Nuget to the WPF Application
+### Add the Xamarin.Forms.Platform.WPF Nuget to the WPF Application
 
 Right click the SampleMapsApp.WPF project.
 
@@ -69,7 +69,7 @@ Browse and Install Xamarin.Forms.Platform.WPF by John Russell
 
 Accept the license agreement.
 
-###Modify App.xaml
+### Modify App.xaml
 
 Open file new project file: App.Xaml
 
@@ -107,7 +107,7 @@ MainWindow.xaml was changed to MainPage.xaml
 
 Added the line <ResourceDictionary Source="Resources.xaml" />
 
-###Modify App.xaml.cs
+### Modify App.xaml.cs
 
 Open file new project file: App.Xaml.cs
 
@@ -173,7 +173,7 @@ and public App() {} constructor was added.
 
 which also included the contents of the constructor: Xamarin.Forms.Forms.Init("INSERT-LICENSE-HERE");
 
-###Add the Registration Code
+### Add the Registration Code
 
 Go to http://wpfnuget.indigoolive.com and register for a login.  Verify your email.  Purchase a license package.  After approved by PayPal, a registration code will be emailed to the email address you used to register a login.
 
@@ -193,7 +193,7 @@ to:
         }
 ```
     
-###Add a reference
+### Add a reference
 
 In the SampleMapsApp.WPF right click onto References and select Add...
 
@@ -203,11 +203,11 @@ Then add a reference to the Project in the solution called: SampleApp
 
 ![Sample Maps App Reference Select image](images/SampleMapsAppRef.jpg)
 
-###Set as startup project
+### Set as startup project
 
 Set the SampleMapsApp.WPF as the Start-Up Project for the SampleMapsApp Solution.
 
-###Add CustomMapRenderer
+### Add CustomMapRenderer
 
 Create an new class called: CustomMapRenderer
 
@@ -372,25 +372,25 @@ Add the following code to that file:
     }
 ```
 
-###Add Xamarin.Forms.Maps.WPF
+### Add Xamarin.Forms.Maps.WPF
 
 To enable the Maps capability with Xamarin.Forms.Platform.WPF you must also add
 the Xamarin.Forms.Maps.WPF by John Russell
 
 ![Add the Xamarin.Forms.Maps.WPF NuGet](images/AddXamarinMapsWPF.jpg)
 
-##Build
+## Build
 
 Right click on the SampleMapsApp.WPF project and select build.
 
-##Run
+## Run
 
 At the top of the Visual Studio screen, select "Start >"
 
-##Authors
+## Authors
 
 John Russell - Senior Software Engineer II - Indigo Olive Software, Inc.
 
-##License
+## License
 
 These samples and all attached documents are free to use, copy, and sell.
