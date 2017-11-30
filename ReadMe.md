@@ -75,8 +75,7 @@ Open file new project file: App.Xaml
 
 change the code from:
 
-```
-#!xml
+```xml
     <Application x:Class="SampleCarouselApp.WPF.App"
                  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -90,8 +89,7 @@ change the code from:
 
 to:
 
-```
-#!xml
+```xml
     <Application x:Class="SampleMapsApp.WPF.App"
                  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -115,8 +113,7 @@ Open file new project file: App.Xaml.cs
 
 change the code from:
 
-```
-#!csharp
+```C#
 	using System;
 	using System.Collections.Generic;
 	using System.Configuration;
@@ -138,8 +135,7 @@ change the code from:
 
 to:
 
-```
-#!csharp
+```C#
 	using System;
 	using System.Collections.Generic;
 	using System.Configuration;
@@ -183,16 +179,19 @@ Go to http://wpfnuget.indigoolive.com and register for a login.  Verify your ema
 
 Open App.xaml.cs and change the code from:
 
+```C#
         public App() {
             Xamarin.Forms.Forms.Init("INSERT-LICENSE-HERE");
         }
+```
 
 to:
 
+```C#
         public App() {
             Xamarin.Forms.Forms.Init("HG2oNeQtuA1mErizfrOsXkZKcBSBay7WotqvVQ5LQZXwc0kvvT4LzcWtXWLkLWVoK4XVJk6KF13Szd+gTDhX/Y5B3hnz94BVA=K6MkhzzPR0on/eA26AKhq/+D7iW7qEETBzU/BnttNI=bHujYw0kkrWK1MaEQ69LQ==");
         }
-    
+```
     
 ###Add a reference
 
@@ -214,8 +213,7 @@ Create an new class called: CustomMapRenderer
 
 Add the following code to that file:
 
-```
-#!csharp
+```C#
     using System;
     using System.Collections.Generic;
     using System.Linq;
