@@ -1,0 +1,15 @@
+*.sln
+.vs/
+*.zip
+SampleMapsApp/Installer
+SampleMapsApp/SampleMapsApp/SampleMapsApp.Android/bin
+SampleMapsApp/SampleMapsApp/SampleMapsApp.Android/obj
+SampleMapsApp/SampleMapsApp/SampleMapsApp.iOS/bin
+SampleMapsApp/SampleMapsApp/SampleMapsApp.iOS/obj
+SampleMapsApp/SampleMapsApp/SampleMapsApp.UWP/bin
+SampleMapsApp/SampleMapsApp/SampleMapsApp.UWP/obj
+SampleMapsApp/SampleMapsApp/SampleMapsApp.WPF/bin
+SampleMapsApp/SampleMapsApp/SampleMapsApp.WPF/obj
+SampleMapsApp/SampleMapsApp/SampleMapsApp/bin
+SampleMapsApp/SampleMapsApp/SampleMapsApp/obj
+SampleMapsApp/packages

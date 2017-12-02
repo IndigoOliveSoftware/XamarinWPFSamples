@@ -173,6 +173,8 @@ and public App() {} constructor was added.
 
 which also included the contents of the constructor: Xamarin.Forms.Forms.Init("INSERT-LICENSE-HERE");
 
+Using Xamarin.Forms and Using Xamarin.Forms.Platform.WPF were added at the beginning.
+
 ### Add the Registration Code
 
 Go to http://wpfnuget.indigoolive.com and register for a login.  Verify your email.  Purchase a license package.  After approved by PayPal, a registration code will be emailed to the email address you used to register a login.
@@ -232,11 +234,11 @@ Add the following code to that file:
     using Xamarin.Forms.Maps.WPF;
     using System.ComponentModel;
 
-    using SampleApp;
-    using SampleApp.WPF;
+    using SampleMapsApp;
+    using SampleMapsApp.WPF;
 
     [assembly: ExportRenderer(typeof(CustomMap), typeof(CustomMapRenderer))]
-    namespace SampleApp.WPF {
+    namespace SampleMapsApp.WPF {
         public class Base : INotifyPropertyChanged
         {
             public event PropertyChangedEventHandler PropertyChanged;
@@ -386,6 +388,26 @@ Right click on the SampleMapsApp.WPF project and select build.
 ## Run
 
 At the top of the Visual Studio screen, select "Start >"
+
+## Build for Windows 7
+
+Set the project build type to: Release
+
+Right click on the SampleMapsApp.WPF project and select build.
+
+## Generate an installer for Windows 7 or Windows 10
+
+Using Inno Script Studio:
+
+![About Inno Script Studio](images/AboutInno.jpg)
+
+Inno Script Studio Installer can be found at: [Inno Script Studio](https://www.kymoto.org/products/inno-script-studio)
+
+Open the Script file [SampleMapsApp.WPF.iss](SampleMapsApp\Inno\SampleMapsApp.WPF.iss) using Inno Script Studio
+
+Then in Inno Script Studio select the Compile button.
+
+Copy this file to your Windows 7 machine, and run that file.  Make sure your virus protector is temporarily shut off.  Windows 7 Virus Protectors do not like Inno.
 
 ## Authors
 
