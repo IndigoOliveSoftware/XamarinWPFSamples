@@ -408,7 +408,7 @@ Using Inno Script Studio:
 
 Inno Script Studio Installer can be found at: [Inno Script Studio](https://www.kymoto.org/products/inno-script-studio)
 
-Open the Script file [SampleMapsApp.WPF.iss](SampleMapsApp\Inno\SampleMapsApp.WPF.iss) using Inno Script Studio
+Open the Script file [SampleMapsApp.WPF.iss](SampleMapsApp/Inno/SampleMapsApp.WPF.iss) using Inno Script Studio
 
 Then in Inno Script Studio select the Compile button.
 
