@@ -398,6 +398,10 @@ At the top of the Visual Studio screen, select "Start >"
 
 Set the project build type to: Release
 
+You can use what ever platform you want here, I have tried them all on Windows 7 and they work just fine: x86, x64 or AnyCpu
+
+Note however that x64 will not work on a Windows 7 machine that is x86!
+
 Right click on the SampleMapsApp.WPF project and select build.
 
 ## Generate an installer for Windows 7 or Windows 10
