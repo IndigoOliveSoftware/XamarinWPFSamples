@@ -105,7 +105,11 @@ What was changed?
 
 MainWindow.xaml was changed to MainPage.xaml
 
-Added the line <ResourceDictionary Source="Resources.xaml" />
+Added the line:
+
+```xml
+    <ResourceDictionary Source="Resources.xaml" />
+```
 
 ### Modify App.xaml.cs
 
