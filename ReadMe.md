@@ -103,9 +103,9 @@ to:
 
 What was changed?
 
-MainWindow.xaml was changed to MainPage.xaml
+1) MainWindow.xaml was changed to MainPage.xaml
 
-Added the line:
+2) Added the line:
 
 ```xml
     <ResourceDictionary Source="Resources.xaml" />
@@ -171,13 +171,14 @@ to:
 
 What was changed?
 
-Application was changed to System.Windows.Application
+1) Application was changed to System.Windows.Application
 
-and public App() {} constructor was added.
+2) public App() {} constructor was added.
 
-which also included the contents of the constructor: Xamarin.Forms.Forms.Init("INSERT-LICENSE-HERE");
+3) the contents of the constructor: Xamarin.Forms.Forms.Init("INSERT-LICENSE-HERE");
 
-Using Xamarin.Forms and Using Xamarin.Forms.Platform.WPF were added at the beginning.
+4) Using Xamarin.Forms and Using Xamarin.Forms.Platform.WPF was added.
+
 
 ### Add the Registration Code
 
