@@ -1,6 +1,5 @@
 *.sln
 .vs/
-*.zip
 SampleMapsApp/Installer
 SampleMapsApp/SampleMapsApp/SampleMapsApp.Android/bin
 SampleMapsApp/SampleMapsApp/SampleMapsApp.Android/obj

@@ -24,6 +24,11 @@ namespace SampleMapsApp.Droid
         List < CustomPin > customPins;
         bool isDrawn;
 
+        public CustomMapRenderer(Context context) : base(context)
+        {
+            AutoPackage = false;
+        }
+
         protected override void OnElementChanged(ElementChangedEventArgs<Map> e) {
             base.OnElementChanged(e);
 
