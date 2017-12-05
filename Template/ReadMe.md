@@ -1,27 +1,4 @@
-# To create the template from the files here do the following:
-
-1) Go into the directory:
-    
-    FilesToCreateTemplate
-
-2) With your mouse select all the files so that you have selected:
-
-    CPXFApp
-    CPXFApp.Android
-    CPXFApp.iOS
-    CPXFApp.UWP
-    CPXFApp.WPF
-    __icon.ico
-    __PreviewImage.jpg
-    CrossPlatformAppXamarin.vstemplate
-
-3) With the above files selected, right click and select:
-   Send->Compressed Zip File
-
-4) Give that file the name: CrossPlatformAppXamarin.zip when asked for a name.
-
-
-# How to Use this file:
+# How to Use the CrossPlatformAppXamarin.zip file:
 
 1) copy this file to the following folder:
     C:\Users\<YOUR USER>\Documents\Visual Studio 2017\Templates\ProjectTemplates\Visual C#
@@ -53,3 +30,26 @@ and Run.
 4) In that command prompt type: devenv /installvstemplates
 
 Now it is gone.
+
+
+# To create the template from the files here do the following:
+
+1) Go into the directory:
+    
+    FilesToCreateTemplate
+
+2) With your mouse select all the files so that you have selected:
+
+    CPXFApp
+    CPXFApp.Android
+    CPXFApp.iOS
+    CPXFApp.UWP
+    CPXFApp.WPF
+    __icon.ico
+    __PreviewImage.jpg
+    CrossPlatformAppXamarin.vstemplate
+
+3) With the above files selected, right click and select:
+   Send->Compressed Zip File
+
+4) Give that file the name: CrossPlatformAppXamarin.zip when asked for a name.
