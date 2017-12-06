@@ -1,9 +1,21 @@
-# How to Use the CrossPlatformAppXamarin.zip file:
+# How to Use the MasterDetailPCLMaps.zip file:
 
+same for the files:
+
+EmptyPCL.zip
+
+EmptyShare.zip
+
+MasterDetailPCL.zip
+
+MasterDetailShare.zip
+
+1) Create this folder:
+    C:\Users\<YOUR USER>\Documents\Visual Studio 2017\Templates\ProjectTemplates\Visual C#\Cross-Platform
 1) copy this file to the following folder:
-    C:\Users\<YOUR USER>\Documents\Visual Studio 2017\Templates\ProjectTemplates\Visual C#
+    C:\Users\<YOUR USER>\Documents\Visual Studio 2017\Templates\ProjectTemplates\Visual C#\Cross-Platform
 so now you have:
-    C:\Users\<YOUR USER>\Documents\Visual Studio 2017\Templates\ProjectTemplates\Visual C#\CrossPlatformAppXamarin.zip
+    C:\Users\<YOUR USER>\Documents\Visual Studio 2017\Templates\ProjectTemplates\Visual C#\Cross-Platform\MasterDetailPCLMaps.zip
 2) Close all instances of Visual Studio 2017
 3) Open up the Visual Studio 2017 Developer Command Prompt for VS 2017
      To find this command prompt, go to start, Visual Studio 2017 (folder) and select "Developer Command Prompt for VS 2017"
@@ -11,7 +23,8 @@ so now you have:
 5) Start Visual Studio 2017
 6) Select New->Project
 7) Select Visual C#
-8) Select "Cross Platform Xamarin.Forms (UWP/Android/iOS/WPF) and Maps"
+8) Select Cross-Platform
+8) Select "Android-iOS-UWP-WPF Master Detail PCL Maps"
 9) Enter a project name and location.
 
 That is it.
@@ -23,8 +36,18 @@ and Run.
 
 # If you would like to Un-Install the Template:
 
+same for the files:
+
+EmptyPCL.zip
+
+EmptyShare.zip
+
+MasterDetailPCL.zip
+
+MasterDetailShare.zip
+
 1) Close all instances of Visual Studio 2017
-2) Delete the file:   C:\Users\<YOUR USER>\Documents\Visual Studio 2017\Templates\ProjectTemplates\Visual C#\CrossPlatformAppXamarin.zip
+2) Delete the file:   C:\Users\<YOUR USER>\Documents\Visual Studio 2017\Templates\ProjectTemplates\Visual C#\Cross-Platform\MasterDetailPCLMaps.zip
 3) Open up the Visual Studio 2017 Developer Command Prompt for VS 2017
      To find this command prompt, go to start, Visual Studio 2017 (folder) and select "Developer Command Prompt for VS 2017"
 4) In that command prompt type: devenv /installvstemplates
@@ -34,9 +57,19 @@ Now it is gone.
 
 # To create the template from the files here do the following:
 
+same for the files:
+
+EmptyPCL.zip
+
+EmptyShare.zip
+
+MasterDetailPCL.zip
+
+MasterDetailShare.zip
+
 1) Go into the directory:
     
-    FilesToCreateTemplate
+    MasterDetailPCLMaps
 
 2) With your mouse select all the files so that you have selected:
 
@@ -47,9 +80,9 @@ Now it is gone.
     CPXFApp.WPF
     __icon.ico
     __PreviewImage.jpg
-    CrossPlatformAppXamarin.vstemplate
+    MasterDetailPCLMaps.vstemplate
 
 3) With the above files selected, right click and select:
    Send->Compressed Zip File
 
-4) Give that file the name: CrossPlatformAppXamarin.zip when asked for a name.
+4) Give that file the name: MasterDetailPCLMaps.zip when asked for a name.

@@ -1,0 +1,37 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>CPXFApp.iOS</Name>
+    <Description>Android-iOS-UWP-WPF Master Detail PCL</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>CPXFApp.iOS</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="CPXFApp.iOS.csproj" File="CPXFApp.iOS.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="AppDelegate.cs">AppDelegate.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Entitlements.plist">Entitlements.plist</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Info.plist">Info.plist</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="LaunchScreen.storyboard">LaunchScreen.storyboard</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Main.cs">Main.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="packages.config">packages.config</ProjectItem>
+      <Folder Name="Resources" TargetFolderName="Resources">
+        <ProjectItem ReplaceParameters="false" TargetFileName="tab_about.png">tab_about.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="tab_about@2x.png">tab_about@2x.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="tab_about@3x.png">tab_about@3x.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="tab_feed.png">tab_feed.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="tab_feed@2x.png">tab_feed@2x.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="tab_feed@3x.png">tab_feed@3x.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="xamarin_logo.png">xamarin_logo.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="xamarin_logo@2x.png">xamarin_logo@2x.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="xamarin_logo@3x.png">xamarin_logo@3x.png</ProjectItem>
+      </Folder>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

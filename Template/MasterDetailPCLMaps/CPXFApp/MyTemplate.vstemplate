@@ -1,0 +1,51 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>CPXFApp</Name>
+    <Description>Xamarin Forms PCL Startup Project</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType></ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>CPXFApp</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__icon.ico</Icon>
+    <PreviewImage>__PreviewImage.jpg</PreviewImage>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="CPXFApp.csproj" File="CPXFApp.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="App.xaml">App.xaml</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="App.xaml.cs">App.xaml.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="CustomMap.cs">CustomMap.cs</ProjectItem>
+      <Folder Name="Models" TargetFolderName="Models">
+        <ProjectItem ReplaceParameters="true" TargetFileName="Item.cs">Item.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="packages.config">packages.config</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Services" TargetFolderName="Services">
+        <ProjectItem ReplaceParameters="true" TargetFileName="IDataStore.cs">IDataStore.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="MockDataStore.cs">MockDataStore.cs</ProjectItem>
+      </Folder>
+      <Folder Name="ViewModels" TargetFolderName="ViewModels">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AboutViewModel.cs">AboutViewModel.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="BaseViewModel.cs">BaseViewModel.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ItemDetailViewModel.cs">ItemDetailViewModel.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ItemsViewModel.cs">ItemsViewModel.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Views" TargetFolderName="Views">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AboutPage.xaml">AboutPage.xaml</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="AboutPage.xaml.cs">AboutPage.xaml.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ItemDetailPage.xaml">ItemDetailPage.xaml</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ItemDetailPage.xaml.cs">ItemDetailPage.xaml.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ItemsPage.xaml">ItemsPage.xaml</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ItemsPage.xaml.cs">ItemsPage.xaml.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="MainPage.cs">MainPage.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="NewItemPage.xaml">NewItemPage.xaml</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="NewItemPage.xaml.cs">NewItemPage.xaml.cs</ProjectItem>
+      </Folder>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
