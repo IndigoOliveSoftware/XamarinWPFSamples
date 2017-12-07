@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectTypeGuids>{82b43b9b-a64c-4715-b499-d71e9ca2bd60};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{FB0B792D-9754-47D3-B617-FD15F2E7A119}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EmptyPCLINDIGOWPF</RootNamespace>
+    <AssemblyName>EmptyPCLINDIGOWPF</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <GeneratePkgDefFile>false</GeneratePkgDefFile>
+    <IncludeAssemblyInVSIXContainer>false</IncludeAssemblyInVSIXContainer>
+    <IncludeDebugSymbolsInVSIXContainer>false</IncludeDebugSymbolsInVSIXContainer>
+    <IncludeDebugSymbolsInLocalVSIXDeployment>false</IncludeDebugSymbolsInLocalVSIXDeployment>
+    <CreateVsixContainer>false</CreateVsixContainer>
+    <DeployExtension>false</DeployExtension>
+    <DeployVSTemplates>false</DeployVSTemplates>
+    <CopyVsixManifestToOutput>false</CopyVsixManifestToOutput>
+    <CopyBuildOutputToOutputDirectory>false</CopyBuildOutputToOutputDirectory>
+    <CopyOutputSymbolsToOutputDirectory>false</CopyOutputSymbolsToOutputDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualStudio.CoreUtility">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CPXFApp.Android\MainActivity.cs" />
+    <None Include="CPXFApp.Android\Properties\AssemblyInfo.cs" />
+    <None Include="CPXFApp.Android\Resources\Resource.Designer.cs" />
+    <None Include="CPXFApp.iOS\AppDelegate.cs" />
+    <None Include="CPXFApp.iOS\Main.cs" />
+    <None Include="CPXFApp.iOS\Properties\AssemblyInfo.cs" />
+    <None Include="CPXFApp.UWP\App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </None>
+    <None Include="CPXFApp.UWP\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </None>
+    <None Include="CPXFApp.UWP\Properties\AssemblyInfo.cs" />
+    <None Include="CPXFApp.WPF\App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </None>
+    <None Include="CPXFApp.WPF\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </None>
+    <None Include="CPXFApp.WPF\Properties\AssemblyInfo.cs" />
+    <None Include="CPXFApp.WPF\Properties\Resources.Designer.cs" />
+    <None Include="CPXFApp.WPF\Properties\Settings.Designer.cs" />
+    <None Include="CPXFApp.WPF\Services\PlatformServices_WPF.cs" />
+    <None Include="CPXFApp\App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </None>
+    <None Include="CPXFApp\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </None>
+    <None Include="CPXFApp\Properties\AssemblyInfo.cs" />
+    <None Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CPXFApp.Android\packages.config" />
+    <None Include="CPXFApp.iOS\iTunesArtwork" />
+    <None Include="CPXFApp.iOS\iTunesArtwork%402x" />
+    <None Include="CPXFApp.iOS\packages.config" />
+    <None Include="CPXFApp.iOS\Resources\LaunchScreen.storyboard" />
+    <None Include="CPXFApp.UWP\Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CPXFApp.UWP\project.json" />
+    <None Include="CPXFApp.WPF\App.config" />
+    <None Include="CPXFApp.WPF\packages.config" />
+    <None Include="CPXFApp.WPF\Properties\Settings.settings" />
+    <None Include="CPXFApp\packages.config" />
+    <None Include="EmptyPCLINDIGOWPF.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <VSTemplate Include="EmptyPCLINDIGOWPF.vstemplate" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CPXFApp.Android\Assets\AboutAssets.txt" />
+    <None Include="CPXFApp.Android\CPXFApp.Android.csproj" />
+    <None Include="CPXFApp.Android\MyTemplate.vstemplate" />
+    <None Include="CPXFApp.Android\Properties\AndroidManifest.xml" />
+    <None Include="CPXFApp.Android\Resources\AboutResources.txt" />
+    <None Include="CPXFApp.Android\Resources\drawable-hdpi\icon.png" />
+    <None Include="CPXFApp.Android\Resources\drawable-xhdpi\icon.png" />
+    <None Include="CPXFApp.Android\Resources\drawable-xxhdpi\icon.png" />
+    <None Include="CPXFApp.Android\Resources\drawable\icon.png" />
+    <None Include="CPXFApp.Android\Resources\layout\Tabbar.xml" />
+    <None Include="CPXFApp.Android\Resources\layout\Toolbar.xml" />
+    <None Include="CPXFApp.Android\Resources\values\styles.xml" />
+    <None Include="CPXFApp.Android\__TemplateIcon.ico" />
+    <None Include="CPXFApp.iOS\CPXFApp.iOS.csproj" />
+    <None Include="CPXFApp.iOS\Entitlements.plist" />
+    <None Include="CPXFApp.iOS\Info.plist" />
+    <None Include="CPXFApp.iOS\MyTemplate.vstemplate" />
+    <None Include="CPXFApp.iOS\Resources\Default%402x.png" />
+    <None Include="CPXFApp.iOS\Resources\Default-568h%402x.png" />
+    <None Include="CPXFApp.iOS\Resources\Default-Portrait%402x.png" />
+    <None Include="CPXFApp.iOS\Resources\Default-Portrait.png" />
+    <None Include="CPXFApp.iOS\Resources\Default.png" />
+    <None Include="CPXFApp.iOS\Resources\Icon-60%402x.png" />
+    <None Include="CPXFApp.iOS\Resources\Icon-60%403x.png" />
+    <None Include="CPXFApp.iOS\Resources\Icon-76%402x.png" />
+    <None Include="CPXFApp.iOS\Resources\Icon-76.png" />
+    <None Include="CPXFApp.iOS\Resources\Icon-Small%402x.png" />
+    <None Include="CPXFApp.iOS\Resources\Icon-Small%403x.png" />
+    <None Include="CPXFApp.iOS\Resources\Icon-Small-40%402x.png" />
+    <None Include="CPXFApp.iOS\Resources\Icon-Small-40%403x.png" />
+    <None Include="CPXFApp.iOS\Resources\Icon-Small-40.png" />
+    <None Include="CPXFApp.iOS\Resources\Icon-Small.png" />
+    <None Include="CPXFApp.iOS\__TemplateIcon.ico" />
+    <None Include="CPXFApp.UWP\Assets\LockScreenLogo.scale-100.png" />
+    <None Include="CPXFApp.UWP\Assets\LockScreenLogo.scale-125.png" />
+    <None Include="CPXFApp.UWP\Assets\LockScreenLogo.scale-150.png" />
+    <None Include="CPXFApp.UWP\Assets\LockScreenLogo.scale-200.png" />
+    <None Include="CPXFApp.UWP\Assets\LockScreenLogo.scale-400.png" />
+    <None Include="CPXFApp.UWP\Assets\SplashScreen.scale-100.png" />
+    <None Include="CPXFApp.UWP\Assets\SplashScreen.scale-125.png" />
+    <None Include="CPXFApp.UWP\Assets\SplashScreen.scale-150.png" />
+    <None Include="CPXFApp.UWP\Assets\SplashScreen.scale-200.png" />
+    <None Include="CPXFApp.UWP\Assets\SplashScreen.scale-400.png" />
+    <None Include="CPXFApp.UWP\Assets\Square150x150Logo.scale-100.png" />
+    <None Include="CPXFApp.UWP\Assets\Square150x150Logo.scale-125.png" />
+    <None Include="CPXFApp.UWP\Assets\Square150x150Logo.scale-150.png" />
+    <None Include="CPXFApp.UWP\Assets\Square150x150Logo.scale-200.png" />
+    <None Include="CPXFApp.UWP\Assets\Square150x150Logo.scale-400.png" />
+    <None Include="CPXFApp.UWP\Assets\Square44x44Logo.scale-100.png" />
+    <None Include="CPXFApp.UWP\Assets\Square44x44Logo.scale-125.png" />
+    <None Include="CPXFApp.UWP\Assets\Square44x44Logo.scale-150.png" />
+    <None Include="CPXFApp.UWP\Assets\Square44x44Logo.scale-200.png" />
+    <None Include="CPXFApp.UWP\Assets\Square44x44Logo.scale-400.png" />
+    <None Include="CPXFApp.UWP\Assets\Square44x44Logo.targetsize-16_altform-unplated.png" />
+    <None Include="CPXFApp.UWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
+    <None Include="CPXFApp.UWP\Assets\Square44x44Logo.targetsize-256_altform-unplated.png" />
+    <None Include="CPXFApp.UWP\Assets\Square44x44Logo.targetsize-32_altform-unplated.png" />
+    <None Include="CPXFApp.UWP\Assets\Square44x44Logo.targetsize-48_altform-unplated.png" />
+    <None Include="CPXFApp.UWP\Assets\StoreLogo.png" />
+    <None Include="CPXFApp.UWP\Assets\Wide310x150Logo.scale-100.png" />
+    <None Include="CPXFApp.UWP\Assets\Wide310x150Logo.scale-125.png" />
+    <None Include="CPXFApp.UWP\Assets\Wide310x150Logo.scale-150.png" />
+    <None Include="CPXFApp.UWP\Assets\Wide310x150Logo.scale-200.png" />
+    <None Include="CPXFApp.UWP\Assets\Wide310x150Logo.scale-400.png" />
+    <None Include="CPXFApp.UWP\CPXFApp.UWP.csproj" />
+    <None Include="CPXFApp.UWP\MyTemplate.vstemplate" />
+    <None Include="CPXFApp.UWP\Properties\Default.rd.xml" />
+    <None Include="CPXFApp.UWP\__TemplateIcon.ico" />
+    <None Include="CPXFApp.WPF\BackPlatformButton.png" />
+    <None Include="CPXFApp.WPF\CPXFApp.WPF.csproj" />
+    <None Include="CPXFApp.WPF\LeftPlatformButton.png" />
+    <None Include="CPXFApp.WPF\MyTemplate.vstemplate" />
+    <None Include="CPXFApp.WPF\RightPlatformButton.png" />
+    <None Include="CPXFApp.WPF\__TemplateIcon.ico" />
+    <None Include="CPXFApp\CPXFApp.csproj" />
+    <None Include="CPXFApp\MyTemplate.vstemplate" />
+    <None Include="CPXFApp\__TemplateIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CPXFApp.UWP\App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Include="CPXFApp.UWP\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Include="CPXFApp.WPF\App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Include="CPXFApp.WPF\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Include="CPXFApp.WPF\Resources.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Include="CPXFApp.WPF\ThemeResources.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Include="CPXFApp\App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Include="CPXFApp\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CPXFApp.WPF\Properties\Resources.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\VSSDK\Microsoft.VsSDK.targets" Condition="'$(VSToolsPath)' != ''" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

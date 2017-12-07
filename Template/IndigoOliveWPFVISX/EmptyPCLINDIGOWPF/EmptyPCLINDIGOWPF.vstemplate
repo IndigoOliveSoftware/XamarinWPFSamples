@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="ProjectGroup" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>EmptyPCLINDIGOWPF</Name>
+    <Description>EmptyPCLINDIGOWPF</Description>
+    <Icon>EmptyPCLINDIGOWPF.ico</Icon>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <SortOrder>1000</SortOrder>
+    <TemplateID>f72e4652-f6d1-4c99-ba2b-e2cad390a10b</TemplateID>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>EmptyPCLINDIGOWPF</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <Hidden>true</Hidden>
+  </TemplateData>
+  <TemplateContent PreferedSolutionConfiguration="Debug|x86">
+    <ProjectCollection>
+      <ProjectTemplateLink ProjectName="$safeprojectname$" CopyParameters="true">
+        CPXFApp\MyTemplate.vstemplate
+      </ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$safeprojectname$.Android" CopyParameters="true">
+        CPXFApp.Android\MyTemplate.vstemplate
+      </ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$safeprojectname$.iOS" CopyParameters="true">
+        CPXFApp.iOS\MyTemplate.vstemplate
+      </ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$safeprojectname$.UWP" CopyParameters="true">
+        CPXFApp.UWP\MyTemplate.vstemplate
+      </ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$safeprojectname$.WPF" CopyParameters="true">
+        CPXFApp.WPF\MyTemplate.vstemplate
+      </ProjectTemplateLink>
+    </ProjectCollection>
+  </TemplateContent>
+</VSTemplate>

@@ -43,4 +43,8 @@
       <ErrorMessage>To create Xamarin Forms projects please install Portable Library Tools 2.</ErrorMessage>
     </EnsureRegistryWizard>
   </WizardData>
+  <WizardExtension>  
+	<Assembly>TestVISXWizard, Version=1.0.0.0, Culture=Neutral, PublicKeyToken=token</Assembly>  
+	<FullClassName>TestVISXWizard.WizardImplementation</FullClassName>  
+  </WizardExtension> 
 </VSTemplate>

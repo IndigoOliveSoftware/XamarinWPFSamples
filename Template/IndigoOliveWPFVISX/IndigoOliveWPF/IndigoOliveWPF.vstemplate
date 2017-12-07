@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="ProjectGroup" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>IndigoOlive Cross Platform Xamarin</Name>
+    <Description>IndigoOlive Cross Platform for Xamarin.Forms Android-iOS-UWP-WPF With selectors</Description>
+    <Icon>__icon.ico</Icon>
+    <PreviewImage>__PreviewImage.jpg</PreviewImage>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <SortOrder>1000</SortOrder>
+    <TemplateID>730c90f9-03ca-44b7-b87f-aa8716179aa1</TemplateID>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>CPXFApp</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+  </TemplateData>
+  <TemplateContent>
+  </TemplateContent>
+  <WizardExtension>
+    <Assembly>IndigoOliveWPFVISX, Version=1.0.0.0, Culture=Neutral, PublicKeyToken=362524785a05bb86</Assembly>
+    <FullClassName>IndigoOliveWPFVISX.WizardImplementation</FullClassName>
+  </WizardExtension>
+</VSTemplate>

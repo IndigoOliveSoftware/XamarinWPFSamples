@@ -1,0 +1,26 @@
+12/07/2017  04:18 PM               596 key.snk
+12/05/2017  05:18 PM            15,872 Microsoft.VisualStudio.TemplateWizardInterface.dll
+12/05/2017  05:18 PM            11,394 Microsoft.VisualStudio.TemplateWizardInterface.xml
+12/05/2017  05:18 PM            32,384 stdole.dll
+               8 File(s)      1,634,710 bytes
+               2 Dir(s)  1,474,673,172,480 bytes free
+
+C:\SharedProjects\vs2017\XamarinWPFSamples\Template\IndigoOliveWPFVISX\IndigoOliveWPFVISX\bin\Debug>"C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools
+'"C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools ' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\SharedProjects\vs2017\XamarinWPFSamples\Template\IndigoOliveWPFVISX\IndigoOliveWPFVISX\bin\Debug>"C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools\sn.exe" -p key.snk outfile.key
+
+Microsoft (R) .NET Framework Strong Name Utility  Version 4.0.30319.0
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+Public key written to outfile.key
+
+C:\SharedProjects\vs2017\XamarinWPFSamples\Template\IndigoOliveWPFVISX\IndigoOliveWPFVISX\bin\Debug>"C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools\sn.exe" -t outfile.key
+
+Microsoft (R) .NET Framework Strong Name Utility  Version 4.0.30319.0
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+Public key token is 362524785a05bb86
+
+C:\SharedProjects\vs2017\XamarinWPFSamples\Template\IndigoOliveWPFVISX\IndigoOliveWPFVISX\bin\Debug>
