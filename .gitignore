@@ -1,4 +1,3 @@
-*.sln
 .vs/
 SampleMapsApp/Installer
 SampleMapsApp/SampleMapsApp/SampleMapsApp.Android/bin
