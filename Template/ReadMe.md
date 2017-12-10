@@ -12,20 +12,20 @@ MasterDetailShare.zip
 
 1) Create this folder:
     C:\Users\<YOUR USER>\Documents\Visual Studio 2017\Templates\ProjectTemplates\Visual C#\Cross-Platform
-1) copy this file to the following folder:
+2) copy this file to the following folder:
     C:\Users\<YOUR USER>\Documents\Visual Studio 2017\Templates\ProjectTemplates\Visual C#\Cross-Platform
 so now you have:
     C:\Users\<YOUR USER>\Documents\Visual Studio 2017\Templates\ProjectTemplates\Visual C#\Cross-Platform\MasterDetailPCLMaps.zip
-2) Close all instances of Visual Studio 2017
-3) Open up the Visual Studio 2017 Developer Command Prompt for VS 2017
+3) Close all instances of Visual Studio 2017
+4) Open up the Visual Studio 2017 Developer Command Prompt for VS 2017
      To find this command prompt, go to start, Visual Studio 2017 (folder) and select "Developer Command Prompt for VS 2017"
-4) In that command prompt type: devenv /installvstemplates
-5) Start Visual Studio 2017
-6) Select New->Project
-7) Select Visual C#
-8) Select Cross-Platform
-8) Select "Android-iOS-UWP-WPF Master Detail PCL Maps"
-9) Enter a project name and location.
+5) In that command prompt type: devenv /installvstemplates
+6) Start Visual Studio 2017
+7) Select New->Project
+8) Select Visual C#
+9) Select Cross-Platform
+10) Select "Android-iOS-UWP-WPF Master Detail PCL Maps"
+11) Enter a project name and location.
 
 That is it.
 
