@@ -20,6 +20,5 @@
 &lt;/dict&gt;
 &lt;/plist&gt;
 </TargetiOSDevice>
-    <DefaultDevice>iPhone 8 iOS 11.2</DefaultDevice>
   </PropertyGroup>
 </Project>

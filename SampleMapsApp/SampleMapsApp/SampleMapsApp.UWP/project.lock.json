@@ -29,7 +29,7 @@
           "lib/netcore50/Microsoft.CSharp.dll": {}
         }
       },
-      "Microsoft.Net.Native.Compiler/1.7.1": {
+      "Microsoft.Net.Native.Compiler/1.7.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.Net.Native.SharedLibrary-arm": "1.7.0",
@@ -239,14 +239,14 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.NETCore.UniversalWindowsPlatform/6.0.2": {
+      "Microsoft.NETCore.UniversalWindowsPlatform/6.0.4": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore": "5.0.2",
           "Microsoft.NETCore.Portable.Compatibility": "1.0.2",
           "Microsoft.NETCore.Runtime.CoreCLR": "1.0.3",
           "Microsoft.NETCore.Targets": "1.0.2",
-          "Microsoft.Net.Native.Compiler": "1.7.1",
+          "Microsoft.Net.Native.Compiler": "1.7.2",
           "Microsoft.Win32.Primitives": "4.0.1",
           "System.Collections.NonGeneric": "4.0.1",
           "System.Collections.Specialized": "4.0.1",
@@ -261,7 +261,7 @@
           "System.Net.Sockets": "4.1.0",
           "System.Net.WebHeaderCollection": "4.0.1",
           "System.Net.WebSockets": "4.0.0",
-          "System.Net.WebSockets.Client": "4.0.0",
+          "System.Net.WebSockets.Client": "4.0.2",
           "System.Numerics.Vectors.WindowsRuntime": "4.0.1",
           "System.Reflection.Context": "4.0.1",
           "System.Runtime.InteropServices.WindowsRuntime": "4.0.1",
@@ -1114,10 +1114,10 @@
           "lib/netstandard1.3/System.Net.WebSockets.dll": {}
         }
       },
-      "System.Net.WebSockets.Client/4.0.0": {
+      "System.Net.WebSockets.Client/4.0.2": {
         "type": "package",
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "1.0.1",
+          "Microsoft.NETCore.Platforms": "1.0.2",
           "System.Collections": "4.0.11",
           "System.Diagnostics.Debug": "4.0.11",
           "System.Diagnostics.Tracing": "4.1.0",
@@ -2206,7 +2206,7 @@
           }
         }
       },
-      "Xamarin.Forms/2.5.0.91635": {
+      "Xamarin.Forms/2.3.4.231": {
         "type": "package",
         "compile": {
           "lib/uap10.0/Xamarin.Forms.Core.dll": {},
@@ -2221,14 +2221,13 @@
           "lib/uap10.0/Xamarin.Forms.Xaml.dll": {}
         },
         "build": {
-          "build/netstandard1.0/Xamarin.Forms.props": {},
-          "build/netstandard1.0/Xamarin.Forms.targets": {}
+          "build/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamarin.Forms.targets": {}
         }
       },
-      "Xamarin.Forms.Maps/2.5.0.91635": {
+      "Xamarin.Forms.Maps/2.3.4.231": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Forms": "2.5.0.91635"
+          "Xamarin.Forms": "2.3.4.231"
         },
         "compile": {
           "lib/uap10.0/Xamarin.Forms.Maps.UWP.dll": {},
@@ -2275,7 +2274,7 @@
           "lib/netcore50/Microsoft.CSharp.dll": {}
         }
       },
-      "Microsoft.Net.Native.Compiler/1.7.1": {
+      "Microsoft.Net.Native.Compiler/1.7.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.Net.Native.SharedLibrary-arm": "1.7.0",
@@ -2432,14 +2431,14 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.NETCore.UniversalWindowsPlatform/6.0.2": {
+      "Microsoft.NETCore.UniversalWindowsPlatform/6.0.4": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore": "5.0.2",
           "Microsoft.NETCore.Portable.Compatibility": "1.0.2",
           "Microsoft.NETCore.Runtime.CoreCLR": "1.0.3",
           "Microsoft.NETCore.Targets": "1.0.2",
-          "Microsoft.Net.Native.Compiler": "1.7.1",
+          "Microsoft.Net.Native.Compiler": "1.7.2",
           "Microsoft.Win32.Primitives": "4.0.1",
           "System.Collections.NonGeneric": "4.0.1",
           "System.Collections.Specialized": "4.0.1",
@@ -2454,7 +2453,7 @@
           "System.Net.Sockets": "4.1.0",
           "System.Net.WebHeaderCollection": "4.0.1",
           "System.Net.WebSockets": "4.0.0",
-          "System.Net.WebSockets.Client": "4.0.0",
+          "System.Net.WebSockets.Client": "4.0.2",
           "System.Numerics.Vectors.WindowsRuntime": "4.0.1",
           "System.Reflection.Context": "4.0.1",
           "System.Runtime.InteropServices.WindowsRuntime": "4.0.1",
@@ -2472,7 +2471,7 @@
           "System.Threading.Overlapped": "4.0.1",
           "System.Xml.XmlDocument": "4.0.1",
           "System.Xml.XmlSerializer": "4.0.11",
-          "runtime.win10-arm.Microsoft.NETCore.UniversalWindowsPlatform": "6.0.2"
+          "runtime.win10-arm.Microsoft.NETCore.UniversalWindowsPlatform": "6.0.4"
         },
         "compile": {
           "ref/netcore50/_._": {}
@@ -2815,7 +2814,7 @@
           "runtimes/win/lib/netcore50/System.Runtime.Extensions.dll": {}
         }
       },
-      "runtime.win10-arm.Microsoft.NETCore.UniversalWindowsPlatform/6.0.2": {
+      "runtime.win10-arm.Microsoft.NETCore.UniversalWindowsPlatform/6.0.4": {
         "type": "package",
         "compile": {
           "ref/netstandard/_._": {}
@@ -3541,10 +3540,10 @@
           "lib/netstandard1.3/System.Net.WebSockets.dll": {}
         }
       },
-      "System.Net.WebSockets.Client/4.0.0": {
+      "System.Net.WebSockets.Client/4.0.2": {
         "type": "package",
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "1.0.1",
+          "Microsoft.NETCore.Platforms": "1.0.2",
           "System.Collections": "4.0.11",
           "System.Diagnostics.Debug": "4.0.11",
           "System.Diagnostics.Tracing": "4.1.0",
@@ -4542,7 +4541,7 @@
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Xamarin.Forms/2.5.0.91635": {
+      "Xamarin.Forms/2.3.4.231": {
         "type": "package",
         "compile": {
           "lib/uap10.0/Xamarin.Forms.Core.dll": {},
@@ -4557,14 +4556,13 @@
           "lib/uap10.0/Xamarin.Forms.Xaml.dll": {}
         },
         "build": {
-          "build/netstandard1.0/Xamarin.Forms.props": {},
-          "build/netstandard1.0/Xamarin.Forms.targets": {}
+          "build/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamarin.Forms.targets": {}
         }
       },
-      "Xamarin.Forms.Maps/2.5.0.91635": {
+      "Xamarin.Forms.Maps/2.3.4.231": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Forms": "2.5.0.91635"
+          "Xamarin.Forms": "2.3.4.231"
         },
         "compile": {
           "lib/uap10.0/Xamarin.Forms.Maps.UWP.dll": {},
@@ -4611,7 +4609,7 @@
           "lib/netcore50/Microsoft.CSharp.dll": {}
         }
       },
-      "Microsoft.Net.Native.Compiler/1.7.1": {
+      "Microsoft.Net.Native.Compiler/1.7.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.Net.Native.SharedLibrary-arm": "1.7.0",
@@ -4769,14 +4767,14 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.NETCore.UniversalWindowsPlatform/6.0.2": {
+      "Microsoft.NETCore.UniversalWindowsPlatform/6.0.4": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore": "5.0.2",
           "Microsoft.NETCore.Portable.Compatibility": "1.0.2",
           "Microsoft.NETCore.Runtime.CoreCLR": "1.0.3",
           "Microsoft.NETCore.Targets": "1.0.2",
-          "Microsoft.Net.Native.Compiler": "1.7.1",
+          "Microsoft.Net.Native.Compiler": "1.7.2",
           "Microsoft.Win32.Primitives": "4.0.1",
           "System.Collections.NonGeneric": "4.0.1",
           "System.Collections.Specialized": "4.0.1",
@@ -4791,7 +4789,7 @@
           "System.Net.Sockets": "4.1.0",
           "System.Net.WebHeaderCollection": "4.0.1",
           "System.Net.WebSockets": "4.0.0",
-          "System.Net.WebSockets.Client": "4.0.0",
+          "System.Net.WebSockets.Client": "4.0.2",
           "System.Numerics.Vectors.WindowsRuntime": "4.0.1",
           "System.Reflection.Context": "4.0.1",
           "System.Runtime.InteropServices.WindowsRuntime": "4.0.1",
@@ -4809,7 +4807,7 @@
           "System.Threading.Overlapped": "4.0.1",
           "System.Xml.XmlDocument": "4.0.1",
           "System.Xml.XmlSerializer": "4.0.11",
-          "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform": "6.0.2"
+          "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform": "6.0.4"
         },
         "compile": {
           "ref/netcore50/_._": {}
@@ -5197,7 +5195,7 @@
           "runtimes/aot/lib/netcore50/System.Runtime.Extensions.dll": {}
         }
       },
-      "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.0.2": {
+      "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.0.4": {
         "type": "package",
         "compile": {
           "ref/netstandard/_._": {}
@@ -5913,10 +5911,10 @@
           "lib/netstandard1.3/System.Net.WebSockets.dll": {}
         }
       },
-      "System.Net.WebSockets.Client/4.0.0": {
+      "System.Net.WebSockets.Client/4.0.2": {
         "type": "package",
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "1.0.1",
+          "Microsoft.NETCore.Platforms": "1.0.2",
           "System.Collections": "4.0.11",
           "System.Diagnostics.Debug": "4.0.11",
           "System.Diagnostics.Tracing": "4.1.0",
@@ -6914,7 +6912,7 @@
           "runtimes/aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Xamarin.Forms/2.5.0.91635": {
+      "Xamarin.Forms/2.3.4.231": {
         "type": "package",
         "compile": {
           "lib/uap10.0/Xamarin.Forms.Core.dll": {},
@@ -6929,14 +6927,13 @@
           "lib/uap10.0/Xamarin.Forms.Xaml.dll": {}
         },
         "build": {
-          "build/netstandard1.0/Xamarin.Forms.props": {},
-          "build/netstandard1.0/Xamarin.Forms.targets": {}
+          "build/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamarin.Forms.targets": {}
         }
       },
-      "Xamarin.Forms.Maps/2.5.0.91635": {
+      "Xamarin.Forms.Maps/2.3.4.231": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Forms": "2.5.0.91635"
+          "Xamarin.Forms": "2.3.4.231"
         },
         "compile": {
           "lib/uap10.0/Xamarin.Forms.Maps.UWP.dll": {},
@@ -6983,7 +6980,7 @@
           "lib/netcore50/Microsoft.CSharp.dll": {}
         }
       },
-      "Microsoft.Net.Native.Compiler/1.7.1": {
+      "Microsoft.Net.Native.Compiler/1.7.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.Net.Native.SharedLibrary-arm": "1.7.0",
@@ -7143,14 +7140,14 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.NETCore.UniversalWindowsPlatform/6.0.2": {
+      "Microsoft.NETCore.UniversalWindowsPlatform/6.0.4": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore": "5.0.2",
           "Microsoft.NETCore.Portable.Compatibility": "1.0.2",
           "Microsoft.NETCore.Runtime.CoreCLR": "1.0.3",
           "Microsoft.NETCore.Targets": "1.0.2",
-          "Microsoft.Net.Native.Compiler": "1.7.1",
+          "Microsoft.Net.Native.Compiler": "1.7.2",
           "Microsoft.Win32.Primitives": "4.0.1",
           "System.Collections.NonGeneric": "4.0.1",
           "System.Collections.Specialized": "4.0.1",
@@ -7165,7 +7162,7 @@
           "System.Net.Sockets": "4.1.0",
           "System.Net.WebHeaderCollection": "4.0.1",
           "System.Net.WebSockets": "4.0.0",
-          "System.Net.WebSockets.Client": "4.0.0",
+          "System.Net.WebSockets.Client": "4.0.2",
           "System.Numerics.Vectors.WindowsRuntime": "4.0.1",
           "System.Reflection.Context": "4.0.1",
           "System.Runtime.InteropServices.WindowsRuntime": "4.0.1",
@@ -7183,7 +7180,7 @@
           "System.Threading.Overlapped": "4.0.1",
           "System.Xml.XmlDocument": "4.0.1",
           "System.Xml.XmlSerializer": "4.0.11",
-          "runtime.win10-x64.Microsoft.NETCore.UniversalWindowsPlatform": "6.0.2"
+          "runtime.win10-x64.Microsoft.NETCore.UniversalWindowsPlatform": "6.0.4"
         },
         "compile": {
           "ref/netcore50/_._": {}
@@ -7526,7 +7523,7 @@
           "runtimes/win/lib/netcore50/System.Runtime.Extensions.dll": {}
         }
       },
-      "runtime.win10-x64.Microsoft.NETCore.UniversalWindowsPlatform/6.0.2": {
+      "runtime.win10-x64.Microsoft.NETCore.UniversalWindowsPlatform/6.0.4": {
         "type": "package",
         "compile": {
           "ref/netstandard/_._": {}
@@ -8258,10 +8255,10 @@
           "lib/netstandard1.3/System.Net.WebSockets.dll": {}
         }
       },
-      "System.Net.WebSockets.Client/4.0.0": {
+      "System.Net.WebSockets.Client/4.0.2": {
         "type": "package",
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "1.0.1",
+          "Microsoft.NETCore.Platforms": "1.0.2",
           "System.Collections": "4.0.11",
           "System.Diagnostics.Debug": "4.0.11",
           "System.Diagnostics.Tracing": "4.1.0",
@@ -9259,7 +9256,7 @@
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Xamarin.Forms/2.5.0.91635": {
+      "Xamarin.Forms/2.3.4.231": {
         "type": "package",
         "compile": {
           "lib/uap10.0/Xamarin.Forms.Core.dll": {},
@@ -9274,14 +9271,13 @@
           "lib/uap10.0/Xamarin.Forms.Xaml.dll": {}
         },
         "build": {
-          "build/netstandard1.0/Xamarin.Forms.props": {},
-          "build/netstandard1.0/Xamarin.Forms.targets": {}
+          "build/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamarin.Forms.targets": {}
         }
       },
-      "Xamarin.Forms.Maps/2.5.0.91635": {
+      "Xamarin.Forms.Maps/2.3.4.231": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Forms": "2.5.0.91635"
+          "Xamarin.Forms": "2.3.4.231"
         },
         "compile": {
           "lib/uap10.0/Xamarin.Forms.Maps.UWP.dll": {},
@@ -9328,7 +9324,7 @@
           "lib/netcore50/Microsoft.CSharp.dll": {}
         }
       },
-      "Microsoft.Net.Native.Compiler/1.7.1": {
+      "Microsoft.Net.Native.Compiler/1.7.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.Net.Native.SharedLibrary-arm": "1.7.0",
@@ -9489,14 +9485,14 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.NETCore.UniversalWindowsPlatform/6.0.2": {
+      "Microsoft.NETCore.UniversalWindowsPlatform/6.0.4": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore": "5.0.2",
           "Microsoft.NETCore.Portable.Compatibility": "1.0.2",
           "Microsoft.NETCore.Runtime.CoreCLR": "1.0.3",
           "Microsoft.NETCore.Targets": "1.0.2",
-          "Microsoft.Net.Native.Compiler": "1.7.1",
+          "Microsoft.Net.Native.Compiler": "1.7.2",
           "Microsoft.Win32.Primitives": "4.0.1",
           "System.Collections.NonGeneric": "4.0.1",
           "System.Collections.Specialized": "4.0.1",
@@ -9511,7 +9507,7 @@
           "System.Net.Sockets": "4.1.0",
           "System.Net.WebHeaderCollection": "4.0.1",
           "System.Net.WebSockets": "4.0.0",
-          "System.Net.WebSockets.Client": "4.0.0",
+          "System.Net.WebSockets.Client": "4.0.2",
           "System.Numerics.Vectors.WindowsRuntime": "4.0.1",
           "System.Reflection.Context": "4.0.1",
           "System.Runtime.InteropServices.WindowsRuntime": "4.0.1",
@@ -9529,7 +9525,7 @@
           "System.Threading.Overlapped": "4.0.1",
           "System.Xml.XmlDocument": "4.0.1",
           "System.Xml.XmlSerializer": "4.0.11",
-          "runtime.win10-x64-aot.Microsoft.NETCore.UniversalWindowsPlatform": "6.0.2"
+          "runtime.win10-x64-aot.Microsoft.NETCore.UniversalWindowsPlatform": "6.0.4"
         },
         "compile": {
           "ref/netcore50/_._": {}
@@ -9917,7 +9913,7 @@
           "runtimes/aot/lib/netcore50/System.Runtime.Extensions.dll": {}
         }
       },
-      "runtime.win10-x64-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.0.2": {
+      "runtime.win10-x64-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.0.4": {
         "type": "package",
         "compile": {
           "ref/netstandard/_._": {}
@@ -10639,10 +10635,10 @@
           "lib/netstandard1.3/System.Net.WebSockets.dll": {}
         }
       },
-      "System.Net.WebSockets.Client/4.0.0": {
+      "System.Net.WebSockets.Client/4.0.2": {
         "type": "package",
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "1.0.1",
+          "Microsoft.NETCore.Platforms": "1.0.2",
           "System.Collections": "4.0.11",
           "System.Diagnostics.Debug": "4.0.11",
           "System.Diagnostics.Tracing": "4.1.0",
@@ -11640,7 +11636,7 @@
           "runtimes/aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Xamarin.Forms/2.5.0.91635": {
+      "Xamarin.Forms/2.3.4.231": {
         "type": "package",
         "compile": {
           "lib/uap10.0/Xamarin.Forms.Core.dll": {},
@@ -11655,14 +11651,13 @@
           "lib/uap10.0/Xamarin.Forms.Xaml.dll": {}
         },
         "build": {
-          "build/netstandard1.0/Xamarin.Forms.props": {},
-          "build/netstandard1.0/Xamarin.Forms.targets": {}
+          "build/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamarin.Forms.targets": {}
         }
       },
-      "Xamarin.Forms.Maps/2.5.0.91635": {
+      "Xamarin.Forms.Maps/2.3.4.231": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Forms": "2.5.0.91635"
+          "Xamarin.Forms": "2.3.4.231"
         },
         "compile": {
           "lib/uap10.0/Xamarin.Forms.Maps.UWP.dll": {},
@@ -11709,7 +11704,7 @@
           "lib/netcore50/Microsoft.CSharp.dll": {}
         }
       },
-      "Microsoft.Net.Native.Compiler/1.7.1": {
+      "Microsoft.Net.Native.Compiler/1.7.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.Net.Native.SharedLibrary-arm": "1.7.0",
@@ -11869,14 +11864,14 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.NETCore.UniversalWindowsPlatform/6.0.2": {
+      "Microsoft.NETCore.UniversalWindowsPlatform/6.0.4": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore": "5.0.2",
           "Microsoft.NETCore.Portable.Compatibility": "1.0.2",
           "Microsoft.NETCore.Runtime.CoreCLR": "1.0.3",
           "Microsoft.NETCore.Targets": "1.0.2",
-          "Microsoft.Net.Native.Compiler": "1.7.1",
+          "Microsoft.Net.Native.Compiler": "1.7.2",
           "Microsoft.Win32.Primitives": "4.0.1",
           "System.Collections.NonGeneric": "4.0.1",
           "System.Collections.Specialized": "4.0.1",
@@ -11891,7 +11886,7 @@
           "System.Net.Sockets": "4.1.0",
           "System.Net.WebHeaderCollection": "4.0.1",
           "System.Net.WebSockets": "4.0.0",
-          "System.Net.WebSockets.Client": "4.0.0",
+          "System.Net.WebSockets.Client": "4.0.2",
           "System.Numerics.Vectors.WindowsRuntime": "4.0.1",
           "System.Reflection.Context": "4.0.1",
           "System.Runtime.InteropServices.WindowsRuntime": "4.0.1",
@@ -11909,7 +11904,7 @@
           "System.Threading.Overlapped": "4.0.1",
           "System.Xml.XmlDocument": "4.0.1",
           "System.Xml.XmlSerializer": "4.0.11",
-          "runtime.win10-x86.Microsoft.NETCore.UniversalWindowsPlatform": "6.0.2"
+          "runtime.win10-x86.Microsoft.NETCore.UniversalWindowsPlatform": "6.0.4"
         },
         "compile": {
           "ref/netcore50/_._": {}
@@ -12252,7 +12247,7 @@
           "runtimes/win/lib/netcore50/System.Runtime.Extensions.dll": {}
         }
       },
-      "runtime.win10-x86.Microsoft.NETCore.UniversalWindowsPlatform/6.0.2": {
+      "runtime.win10-x86.Microsoft.NETCore.UniversalWindowsPlatform/6.0.4": {
         "type": "package",
         "compile": {
           "ref/netstandard/_._": {}
@@ -12984,10 +12979,10 @@
           "lib/netstandard1.3/System.Net.WebSockets.dll": {}
         }
       },
-      "System.Net.WebSockets.Client/4.0.0": {
+      "System.Net.WebSockets.Client/4.0.2": {
         "type": "package",
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "1.0.1",
+          "Microsoft.NETCore.Platforms": "1.0.2",
           "System.Collections": "4.0.11",
           "System.Diagnostics.Debug": "4.0.11",
           "System.Diagnostics.Tracing": "4.1.0",
@@ -13985,7 +13980,7 @@
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Xamarin.Forms/2.5.0.91635": {
+      "Xamarin.Forms/2.3.4.231": {
         "type": "package",
         "compile": {
           "lib/uap10.0/Xamarin.Forms.Core.dll": {},
@@ -14000,14 +13995,13 @@
           "lib/uap10.0/Xamarin.Forms.Xaml.dll": {}
         },
         "build": {
-          "build/netstandard1.0/Xamarin.Forms.props": {},
-          "build/netstandard1.0/Xamarin.Forms.targets": {}
+          "build/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamarin.Forms.targets": {}
         }
       },
-      "Xamarin.Forms.Maps/2.5.0.91635": {
+      "Xamarin.Forms.Maps/2.3.4.231": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Forms": "2.5.0.91635"
+          "Xamarin.Forms": "2.3.4.231"
         },
         "compile": {
           "lib/uap10.0/Xamarin.Forms.Maps.UWP.dll": {},
@@ -14054,7 +14048,7 @@
           "lib/netcore50/Microsoft.CSharp.dll": {}
         }
       },
-      "Microsoft.Net.Native.Compiler/1.7.1": {
+      "Microsoft.Net.Native.Compiler/1.7.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.Net.Native.SharedLibrary-arm": "1.7.0",
@@ -14215,14 +14209,14 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.NETCore.UniversalWindowsPlatform/6.0.2": {
+      "Microsoft.NETCore.UniversalWindowsPlatform/6.0.4": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore": "5.0.2",
           "Microsoft.NETCore.Portable.Compatibility": "1.0.2",
           "Microsoft.NETCore.Runtime.CoreCLR": "1.0.3",
           "Microsoft.NETCore.Targets": "1.0.2",
-          "Microsoft.Net.Native.Compiler": "1.7.1",
+          "Microsoft.Net.Native.Compiler": "1.7.2",
           "Microsoft.Win32.Primitives": "4.0.1",
           "System.Collections.NonGeneric": "4.0.1",
           "System.Collections.Specialized": "4.0.1",
@@ -14237,7 +14231,7 @@
           "System.Net.Sockets": "4.1.0",
           "System.Net.WebHeaderCollection": "4.0.1",
           "System.Net.WebSockets": "4.0.0",
-          "System.Net.WebSockets.Client": "4.0.0",
+          "System.Net.WebSockets.Client": "4.0.2",
           "System.Numerics.Vectors.WindowsRuntime": "4.0.1",
           "System.Reflection.Context": "4.0.1",
           "System.Runtime.InteropServices.WindowsRuntime": "4.0.1",
@@ -14255,7 +14249,7 @@
           "System.Threading.Overlapped": "4.0.1",
           "System.Xml.XmlDocument": "4.0.1",
           "System.Xml.XmlSerializer": "4.0.11",
-          "runtime.win10-x86-aot.Microsoft.NETCore.UniversalWindowsPlatform": "6.0.2"
+          "runtime.win10-x86-aot.Microsoft.NETCore.UniversalWindowsPlatform": "6.0.4"
         },
         "compile": {
           "ref/netcore50/_._": {}
@@ -14643,7 +14637,7 @@
           "runtimes/aot/lib/netcore50/System.Runtime.Extensions.dll": {}
         }
       },
-      "runtime.win10-x86-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.0.2": {
+      "runtime.win10-x86-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.0.4": {
         "type": "package",
         "compile": {
           "ref/netstandard/_._": {}
@@ -15365,10 +15359,10 @@
           "lib/netstandard1.3/System.Net.WebSockets.dll": {}
         }
       },
-      "System.Net.WebSockets.Client/4.0.0": {
+      "System.Net.WebSockets.Client/4.0.2": {
         "type": "package",
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "1.0.1",
+          "Microsoft.NETCore.Platforms": "1.0.2",
           "System.Collections": "4.0.11",
           "System.Diagnostics.Debug": "4.0.11",
           "System.Diagnostics.Tracing": "4.1.0",
@@ -16366,7 +16360,7 @@
           "runtimes/aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Xamarin.Forms/2.5.0.91635": {
+      "Xamarin.Forms/2.3.4.231": {
         "type": "package",
         "compile": {
           "lib/uap10.0/Xamarin.Forms.Core.dll": {},
@@ -16381,14 +16375,13 @@
           "lib/uap10.0/Xamarin.Forms.Xaml.dll": {}
         },
         "build": {
-          "build/netstandard1.0/Xamarin.Forms.props": {},
-          "build/netstandard1.0/Xamarin.Forms.targets": {}
+          "build/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamarin.Forms.targets": {}
         }
       },
-      "Xamarin.Forms.Maps/2.5.0.91635": {
+      "Xamarin.Forms.Maps/2.3.4.231": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Forms": "2.5.0.91635"
+          "Xamarin.Forms": "2.3.4.231"
         },
         "compile": {
           "lib/uap10.0/Xamarin.Forms.Maps.UWP.dll": {},
@@ -16466,14 +16459,14 @@
         "ref/xamarinwatchos10/_._"
       ]
     },
-    "Microsoft.Net.Native.Compiler/1.7.1": {
-      "sha512": "P55mWSgc8zLrk2eoRxd3T3QPVXXKrqD/DypC+It8wSgZfaUl2/o31bCOR+aWq1NtxDwDnCPGNVsmo/bmgIeJtA==",
+    "Microsoft.Net.Native.Compiler/1.7.2": {
+      "sha512": "3b6ztTeQxeiBMgXAK1/oMzwhQsQ02W6EQ6lU7Ts7ZmoJcwG7qpjI/BfWiHk5CIpaqKP2BEcpTCDdSDcjkO+YHw==",
       "type": "package",
-      "path": "microsoft.net.native.compiler/1.7.1",
+      "path": "microsoft.net.native.compiler/1.7.2",
       "files": [
         "build/Microsoft.Net.Native.Compiler.props",
         "build/Microsoft.Net.Native.Compiler.targets",
-        "microsoft.net.native.compiler.1.7.1.nupkg.sha512",
+        "microsoft.net.native.compiler.1.7.2.nupkg.sha512",
         "microsoft.net.native.compiler.nuspec",
         "tools/LibraryXML/Callisto.rd.xml",
         "tools/LibraryXML/GalaSoft.MvvmLight.Extras.Win8.rd.xml",
@@ -18701,14 +18694,14 @@
         "runtime.json"
       ]
     },
-    "Microsoft.NETCore.UniversalWindowsPlatform/6.0.2": {
-      "sha512": "1x37WPEc/7G4BedFtmSKCK9E1wVWm0BTgTBe7lv/LuN/5a48H8KpGLO5I0fmX51y5r/BXJNaLjpfDkH1i1j0rQ==",
+    "Microsoft.NETCore.UniversalWindowsPlatform/6.0.4": {
+      "sha512": "D0sTB0Ng5r69XKBQxdogba180v7+9ckEtrovPHnPhkL+bj+qZ9wONyWTOTn+kvPhSkeEUFRECEFtOyhYNDIUTA==",
       "type": "package",
-      "path": "microsoft.netcore.universalwindowsplatform/6.0.2",
+      "path": "microsoft.netcore.universalwindowsplatform/6.0.4",
       "files": [
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
-        "microsoft.netcore.universalwindowsplatform.6.0.2.nupkg.sha512",
+        "microsoft.netcore.universalwindowsplatform.6.0.4.nupkg.sha512",
         "microsoft.netcore.universalwindowsplatform.nuspec",
         "ref/netcore50/_._",
         "ref/uap10.0.15138/Microsoft.CSharp.dll",
@@ -19846,15 +19839,15 @@
         "runtimes/win/lib/netstandard1.5/System.Runtime.Extensions.dll"
       ]
     },
-    "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.0.2": {
-      "sha512": "zz8GaaUGJIFUsJPY0g0ToBrCv3kXbdwDXbd2Tr+HXvJXFD9HrHQHEue4ZVcZpc82mUfdXyRzO4+t6hY64Q4dTQ==",
+    "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.0.4": {
+      "sha512": "9xRow1giMV7bAp/06SMhs0Gf+bx2Ctp248bcBm/h0ZGcR1SJiAPuVvhDaSzxyMrTe08t/vf5pYMHj9kyMFtw1w==",
       "type": "package",
-      "path": "runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform/6.0.2",
+      "path": "runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform/6.0.4",
       "files": [
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "ref/netstandard/_._",
-        "runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform.6.0.2.nupkg.sha512",
+        "runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform.6.0.4.nupkg.sha512",
         "runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform.nuspec",
         "runtimes/win10-arm-aot/lib/uap10.0.15138/Microsoft.CSharp.dll",
         "runtimes/win10-arm-aot/lib/uap10.0.15138/Microsoft.VisualBasic.dll",
@@ -20035,15 +20028,15 @@
         "runtimes/win10-arm-aot/lib/netcore50/clrcompression.dll"
       ]
     },
-    "runtime.win10-arm.Microsoft.NETCore.UniversalWindowsPlatform/6.0.2": {
-      "sha512": "TDXnAPztcmMBpQomeGbo0gk/6WCrQUc5DL1HJcxcefNCRUlqAbUdsUz8sEGaJQ9NUbSshnEeY4wrVgyOonAf+Q==",
+    "runtime.win10-arm.Microsoft.NETCore.UniversalWindowsPlatform/6.0.4": {
+      "sha512": "W1DmqqLsa5ApstteB2tcOWk9Ca1NvT7vTk67fu/JOE1BGkVn6BfD6BxFJG0+70kHIUyHcJPwGDnZ6JDk5d0ikg==",
       "type": "package",
-      "path": "runtime.win10-arm.microsoft.netcore.universalwindowsplatform/6.0.2",
+      "path": "runtime.win10-arm.microsoft.netcore.universalwindowsplatform/6.0.4",
       "files": [
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "ref/netstandard/_._",
-        "runtime.win10-arm.microsoft.netcore.universalwindowsplatform.6.0.2.nupkg.sha512",
+        "runtime.win10-arm.microsoft.netcore.universalwindowsplatform.6.0.4.nupkg.sha512",
         "runtime.win10-arm.microsoft.netcore.universalwindowsplatform.nuspec",
         "runtimes/win10-arm/lib/uap10.0.15138/Microsoft.CSharp.dll",
         "runtimes/win10-arm/lib/uap10.0.15138/Microsoft.VisualBasic.dll",
@@ -20211,15 +20204,15 @@
         "runtimes/win10-arm/nativeassets/uap10.0.15138/clrcompression.dll"
       ]
     },
-    "runtime.win10-x64-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.0.2": {
-      "sha512": "zRfgkMb/yA8Ldgql4gzY5SRcXoj6KgCoKrfPVdOC7iv5PzxGNfQnHdS0WQ5sDaLB+O8BVYpyMYQ4eQ1gbRq+GA==",
+    "runtime.win10-x64-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.0.4": {
+      "sha512": "xX/N8leWGv6hJvA4ABOKaG4ixRwU9RN01AmnggiBDgTtPaPJAGbZpuiSQy7yZNpsqpMgDk4z2ag29l/vs3luDQ==",
       "type": "package",
-      "path": "runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform/6.0.2",
+      "path": "runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform/6.0.4",
       "files": [
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "ref/netstandard/_._",
-        "runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform.6.0.2.nupkg.sha512",
+        "runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform.6.0.4.nupkg.sha512",
         "runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform.nuspec",
         "runtimes/win10-x64-aot/lib/uap10.0.15138/Microsoft.CSharp.dll",
         "runtimes/win10-x64-aot/lib/uap10.0.15138/Microsoft.VisualBasic.dll",
@@ -20400,15 +20393,15 @@
         "runtimes/win10-x64-aot/lib/netcore50/clrcompression.dll"
       ]
     },
-    "runtime.win10-x64.Microsoft.NETCore.UniversalWindowsPlatform/6.0.2": {
-      "sha512": "sNKsP3Fo/XKs4lzEfXzQ6p5+H+gsMVKDtLfNApeCtpsimTt+Nn9lzYggaqvv+gMRJ90j5MnnMZaUf6RwV56nfQ==",
+    "runtime.win10-x64.Microsoft.NETCore.UniversalWindowsPlatform/6.0.4": {
+      "sha512": "kzhOIrg9yZa0JORjZTDj272wCJ5VgowkxEiX5oPPRefd3sE1/mmiLUKrMOC3RESv5QZkPiABzkjIRVRNqsgWyw==",
       "type": "package",
-      "path": "runtime.win10-x64.microsoft.netcore.universalwindowsplatform/6.0.2",
+      "path": "runtime.win10-x64.microsoft.netcore.universalwindowsplatform/6.0.4",
       "files": [
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "ref/netstandard/_._",
-        "runtime.win10-x64.microsoft.netcore.universalwindowsplatform.6.0.2.nupkg.sha512",
+        "runtime.win10-x64.microsoft.netcore.universalwindowsplatform.6.0.4.nupkg.sha512",
         "runtime.win10-x64.microsoft.netcore.universalwindowsplatform.nuspec",
         "runtimes/win10-x64/lib/uap10.0.15138/Microsoft.CSharp.dll",
         "runtimes/win10-x64/lib/uap10.0.15138/Microsoft.VisualBasic.dll",
@@ -20576,15 +20569,15 @@
         "runtimes/win10-x64/nativeassets/uap10.0.15138/clrcompression.dll"
       ]
     },
-    "runtime.win10-x86-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.0.2": {
-      "sha512": "y+OndyqwIIT0EN5x5oyGaW1hRAiej6n2SCk+JZGtMSgjF9i3QQn9dmxYtxazuk+O5MtQdApHYtgK7uKW3yL2ag==",
+    "runtime.win10-x86-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.0.4": {
+      "sha512": "N+bSRgUV0o0LUve8jTNCRHRTPJ/r+q02cKGe6hqlstMGS00Ade4G6ISQdEkmGZt29jXgs1d/EW9goWMWrsDrYg==",
       "type": "package",
-      "path": "runtime.win10-x86-aot.microsoft.netcore.universalwindowsplatform/6.0.2",
+      "path": "runtime.win10-x86-aot.microsoft.netcore.universalwindowsplatform/6.0.4",
       "files": [
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "ref/netstandard/_._",
-        "runtime.win10-x86-aot.microsoft.netcore.universalwindowsplatform.6.0.2.nupkg.sha512",
+        "runtime.win10-x86-aot.microsoft.netcore.universalwindowsplatform.6.0.4.nupkg.sha512",
         "runtime.win10-x86-aot.microsoft.netcore.universalwindowsplatform.nuspec",
         "runtimes/win10-x86-aot/lib/uap10.0.15138/Microsoft.CSharp.dll",
         "runtimes/win10-x86-aot/lib/uap10.0.15138/Microsoft.VisualBasic.dll",
@@ -20765,15 +20758,15 @@
         "runtimes/win10-x86-aot/lib/netcore50/clrcompression.dll"
       ]
     },
-    "runtime.win10-x86.Microsoft.NETCore.UniversalWindowsPlatform/6.0.2": {
-      "sha512": "0cl6qKSo+w3v5Y6KrlzDm9GcsoS07OIZO/fEwDykvaJjhzsDeY8UFvLN7s3YiB7bUSAt0uWJcJi3eRBdUsiSBA==",
+    "runtime.win10-x86.Microsoft.NETCore.UniversalWindowsPlatform/6.0.4": {
+      "sha512": "7S9jdgHXE2MH9llcDz0QQA9Ei2vZKs3cIYgiFKS48kBdB8ZIhY+EbJ0OvByhMBTZQiRs+NokieSuhge5z0nnDw==",
       "type": "package",
-      "path": "runtime.win10-x86.microsoft.netcore.universalwindowsplatform/6.0.2",
+      "path": "runtime.win10-x86.microsoft.netcore.universalwindowsplatform/6.0.4",
       "files": [
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "ref/netstandard/_._",
-        "runtime.win10-x86.microsoft.netcore.universalwindowsplatform.6.0.2.nupkg.sha512",
+        "runtime.win10-x86.microsoft.netcore.universalwindowsplatform.6.0.4.nupkg.sha512",
         "runtime.win10-x86.microsoft.netcore.universalwindowsplatform.nuspec",
         "runtimes/win10-x86/lib/uap10.0.15138/Microsoft.CSharp.dll",
         "runtimes/win10-x86/lib/uap10.0.15138/Microsoft.VisualBasic.dll",
@@ -23263,10 +23256,10 @@
         "system.net.websockets.nuspec"
       ]
     },
-    "System.Net.WebSockets.Client/4.0.0": {
-      "sha512": "GY5h9cn0ZVsG4ORQqMytTldrqxet2RC2CSEsgWGf4XNW5jhL5SxzcUZph03xbZsgn7K3qMr+Rq+gkbJNI+FEXg==",
+    "System.Net.WebSockets.Client/4.0.2": {
+      "sha512": "NUCcDroX4lCQXgOrzlwIZ1u9YJ0krfyF0wk0ONnyLUmcQoEiYV2/OfUPRqUwQBbpH1BlGApkLgoQUwMqb5+c1g==",
       "type": "package",
-      "path": "system.net.websockets.client/4.0.0",
+      "path": "system.net.websockets.client/4.0.2",
       "files": [
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -23299,7 +23292,7 @@
         "runtimes/win/lib/net46/System.Net.WebSockets.Client.dll",
         "runtimes/win/lib/netcore50/System.Net.WebSockets.Client.dll",
         "runtimes/win/lib/netstandard1.3/System.Net.WebSockets.Client.dll",
-        "system.net.websockets.client.4.0.0.nupkg.sha512",
+        "system.net.websockets.client.4.0.2.nupkg.sha512",
         "system.net.websockets.client.nuspec"
       ]
     },
@@ -26002,31 +25995,19 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "Xamarin.Forms/2.5.0.91635": {
-      "sha512": "rsEaYnT21VJBmqg/ucUDtKQ9BNbpVMPquPr8Ss3NZ2Y6K2Q75h4T21j7R1hG5MqLfb7DeiHjBv8UnPW7+EPNcw==",
+    "Xamarin.Forms/2.3.4.231": {
+      "sha512": "Tar4nHke8Rl0Mz2Y1MdNAMvo8wKc/wVVW2rN7loXMc+2R1ex3n/fzs7eD2F7gDw3TceGLQku52kyc5LuN8Hlgw==",
       "type": "package",
-      "path": "xamarin.forms/2.5.0.91635",
+      "path": "xamarin.forms/2.3.4.231",
       "files": [
-        "build/netstandard1.0/Mono.Cecil.Mdb.dll",
-        "build/netstandard1.0/Mono.Cecil.Pdb.dll",
-        "build/netstandard1.0/Mono.Cecil.Rocks.dll",
-        "build/netstandard1.0/Mono.Cecil.dll",
-        "build/netstandard1.0/Xamarin.Forms.Build.Tasks.dll",
-        "build/netstandard1.0/Xamarin.Forms.Core.dll",
-        "build/netstandard1.0/Xamarin.Forms.DefaultItems.props",
-        "build/netstandard1.0/Xamarin.Forms.DefaultItems.targets",
-        "build/netstandard1.0/Xamarin.Forms.Xaml.dll",
-        "build/netstandard1.0/Xamarin.Forms.props",
-        "build/netstandard1.0/Xamarin.Forms.targets",
-        "build/portable-win+net45+wp80+win81+wpa81/Mono.Cecil.Mdb.dll",
-        "build/portable-win+net45+wp80+win81+wpa81/Mono.Cecil.Pdb.dll",
-        "build/portable-win+net45+wp80+win81+wpa81/Mono.Cecil.Rocks.dll",
-        "build/portable-win+net45+wp80+win81+wpa81/Mono.Cecil.dll",
-        "build/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Build.Tasks.dll",
-        "build/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Core.dll",
-        "build/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.DefaultItems.targets",
-        "build/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Xaml.dll",
-        "build/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.targets",
+        "build/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Mono.Cecil.Mdb.dll",
+        "build/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Mono.Cecil.Pdb.dll",
+        "build/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Mono.Cecil.Rocks.dll",
+        "build/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Mono.Cecil.dll",
+        "build/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamarin.Forms.Build.Tasks.dll",
+        "build/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamarin.Forms.Core.dll",
+        "build/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamarin.Forms.Xaml.dll",
+        "build/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamarin.Forms.targets",
         "lib/MonoAndroid10/Design/Xamarin.Forms.Core.Design.dll",
         "lib/MonoAndroid10/Design/Xamarin.Forms.Xaml.Design.dll",
         "lib/MonoAndroid10/FormsViewGroup.dll",
@@ -26046,14 +26027,11 @@
         "lib/WP80/Xamarin.Forms.Core.pdb",
         "lib/WP80/Xamarin.Forms.Core.xml",
         "lib/WP80/Xamarin.Forms.Platform.WP8.dll",
+        "lib/WP80/Xamarin.Forms.Platform.WP8.pdb",
         "lib/WP80/Xamarin.Forms.Platform.dll",
         "lib/WP80/Xamarin.Forms.Xaml.dll",
         "lib/WP80/Xamarin.Forms.Xaml.pdb",
         "lib/WP80/Xamarin.Forms.Xaml.xml",
-        "lib/Xamarin.Mac/Xamarin.Forms.Core.dll",
-        "lib/Xamarin.Mac/Xamarin.Forms.Platform.dll",
-        "lib/Xamarin.Mac/Xamarin.Forms.Platform.macOS.dll",
-        "lib/Xamarin.Mac/Xamarin.Forms.Xaml.dll",
         "lib/Xamarin.iOS10/Design/Xamarin.Forms.Core.Design.dll",
         "lib/Xamarin.iOS10/Design/Xamarin.Forms.Xaml.Design.dll",
         "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll",
@@ -26062,6 +26040,7 @@
         "lib/Xamarin.iOS10/Xamarin.Forms.Core.xml",
         "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll",
         "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll.mdb",
         "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.pdb",
         "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll",
         "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll.mdb",
@@ -26101,28 +26080,19 @@
         "lib/Xamarin.iOS10/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll",
         "lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll",
         "lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll",
-        "lib/netstandard1.0/Design/Xamarin.Forms.Core.Design.dll",
-        "lib/netstandard1.0/Design/Xamarin.Forms.Xaml.Design.dll",
-        "lib/netstandard1.0/Xamarin.Forms.Core.dll",
-        "lib/netstandard1.0/Xamarin.Forms.Core.dll.mdb",
-        "lib/netstandard1.0/Xamarin.Forms.Core.pdb",
-        "lib/netstandard1.0/Xamarin.Forms.Core.xml",
-        "lib/netstandard1.0/Xamarin.Forms.Platform.dll",
-        "lib/netstandard1.0/Xamarin.Forms.Xaml.dll",
-        "lib/netstandard1.0/Xamarin.Forms.Xaml.dll.mdb",
-        "lib/netstandard1.0/Xamarin.Forms.Xaml.pdb",
-        "lib/netstandard1.0/Xamarin.Forms.Xaml.xml",
-        "lib/portable-win+net45+wp80+win81+wpa81/Design/Xamarin.Forms.Core.Design.dll",
-        "lib/portable-win+net45+wp80+win81+wpa81/Design/Xamarin.Forms.Xaml.Design.dll",
-        "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Core.dll",
-        "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Core.dll.mdb",
-        "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Core.pdb",
-        "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Core.xml",
-        "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Platform.dll",
-        "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Xaml.dll",
-        "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Xaml.dll.mdb",
-        "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Xaml.pdb",
-        "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Xaml.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Design/Xamarin.Forms.Core.Design.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Design/Xamarin.Forms.Xaml.Design.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamarin.Forms.Core.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamarin.Forms.Core.dll.mdb",
+        "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamarin.Forms.Core.pdb",
+        "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamarin.Forms.Core.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamarin.Forms.Platform.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamarin.Forms.Platform.dll.mdb",
+        "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamarin.Forms.Platform.pdb",
+        "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamarin.Forms.Xaml.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamarin.Forms.Xaml.dll.mdb",
+        "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamarin.Forms.Xaml.pdb",
+        "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamarin.Forms.Xaml.xml",
         "lib/uap10.0/Design/Xamarin.Forms.Core.Design.dll",
         "lib/uap10.0/Design/Xamarin.Forms.Xaml.Design.dll",
         "lib/uap10.0/Xamarin.Forms.Core.dll",
@@ -26131,10 +26101,9 @@
         "lib/uap10.0/Xamarin.Forms.Platform.UAP.pri",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/AutoSuggestStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsCommandBarStyle.xbf",
-        "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsEmbeddedPageWrapper.xbf",
-        "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsProgressBarStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsTextBoxStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/MasterDetailControlStyle.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/PageControl.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/PageControlStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/Properties/Xamarin.Forms.Platform.UAP.rd.xml",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/Resources.xbf",
@@ -26149,13 +26118,13 @@
         "lib/win81/Xamarin.Forms.Core.xml",
         "lib/win81/Xamarin.Forms.Platform.WinRT.Tablet.dll",
         "lib/win81/Xamarin.Forms.Platform.WinRT.Tablet.pri",
-        "lib/win81/Xamarin.Forms.Platform.WinRT.Tablet/FormsProgressBarStyle.xbf",
         "lib/win81/Xamarin.Forms.Platform.WinRT.Tablet/FormsTextBoxStyle.xbf",
         "lib/win81/Xamarin.Forms.Platform.WinRT.Tablet/Resources.xbf",
         "lib/win81/Xamarin.Forms.Platform.WinRT.Tablet/TabletResources.xbf",
         "lib/win81/Xamarin.Forms.Platform.WinRT.Tablet/Xamarin.Forms.Platform.WinRT.Tablet.xr.xml",
         "lib/win81/Xamarin.Forms.Platform.WinRT.dll",
         "lib/win81/Xamarin.Forms.Platform.WinRT.pri",
+        "lib/win81/Xamarin.Forms.Platform.WinRT/PageControl.xbf",
         "lib/win81/Xamarin.Forms.Platform.WinRT/StepperControl.xbf",
         "lib/win81/Xamarin.Forms.Platform.WinRT/Xamarin.Forms.Platform.WinRT.xr.xml",
         "lib/win81/Xamarin.Forms.Platform.dll",
@@ -26167,7 +26136,6 @@
         "lib/wpa81/Xamarin.Forms.Core.xml",
         "lib/wpa81/Xamarin.Forms.Platform.WinRT.Phone.dll",
         "lib/wpa81/Xamarin.Forms.Platform.WinRT.Phone.pri",
-        "lib/wpa81/Xamarin.Forms.Platform.WinRT.Phone/FormsProgressBarStyle.xbf",
         "lib/wpa81/Xamarin.Forms.Platform.WinRT.Phone/FormsTextBoxStyle.xbf",
         "lib/wpa81/Xamarin.Forms.Platform.WinRT.Phone/PhoneResources.xbf",
         "lib/wpa81/Xamarin.Forms.Platform.WinRT.Phone/Resources.xbf",
@@ -26175,19 +26143,20 @@
         "lib/wpa81/Xamarin.Forms.Platform.WinRT.Phone/Xamarin.Forms.Platform.WinRT.Phone.xr.xml",
         "lib/wpa81/Xamarin.Forms.Platform.WinRT.dll",
         "lib/wpa81/Xamarin.Forms.Platform.WinRT.pri",
+        "lib/wpa81/Xamarin.Forms.Platform.WinRT/PageControl.xbf",
         "lib/wpa81/Xamarin.Forms.Platform.WinRT/StepperControl.xbf",
         "lib/wpa81/Xamarin.Forms.Platform.WinRT/Xamarin.Forms.Platform.WinRT.xr.xml",
         "lib/wpa81/Xamarin.Forms.Platform.dll",
         "lib/wpa81/Xamarin.Forms.Xaml.dll",
         "lib/wpa81/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.2.5.0.91635.nupkg.sha512",
+        "xamarin.forms.2.3.4.231.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     },
-    "Xamarin.Forms.Maps/2.5.0.91635": {
-      "sha512": "XkG7OURVW1nlka9Jmy3MraagtxCQFuKzCd3pj5oubl/AVnfjcvai3Kyp3W32DKsmgL375uaZbXZ44Zia4xTk5w==",
+    "Xamarin.Forms.Maps/2.3.4.231": {
+      "sha512": "5dt39pEJeFx22bN83aJMb6qJEYbAQ3QkM5YyEOueCtEZf0UtNeYPRlsWiUFdt6GcIa4bpPyq/82Wx+X367bxBQ==",
       "type": "package",
-      "path": "xamarin.forms.maps/2.5.0.91635",
+      "path": "xamarin.forms.maps/2.3.4.231",
       "files": [
         "build/win81/ARM/Xamarin.Forms.Maps.WinRT.Tablet.dll",
         "build/win81/ARM/Xamarin.Forms.Maps.WinRT.Tablet.pri",
@@ -26223,19 +26192,13 @@
         "lib/WP80/Xamarin.Forms.Maps.WP8.dll",
         "lib/WP80/Xamarin.Forms.Maps.dll",
         "lib/WP80/Xamarin.Forms.Maps.xml",
-        "lib/Xamarin.Mac/Xamarin.Forms.Maps.dll",
-        "lib/Xamarin.Mac/Xamarin.Forms.Maps.macOS.dll",
-        "lib/Xamarin.Mac/Xamarin.Forms.Maps.xml",
         "lib/Xamarin.iOS10/Design/Xamarin.Forms.Maps.Design.dll",
         "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll",
         "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll",
         "lib/Xamarin.iOS10/Xamarin.Forms.Maps.xml",
-        "lib/netstandard1.0/Xamarin.Forms.Maps.Design.dll",
-        "lib/netstandard1.0/Xamarin.Forms.Maps.dll",
-        "lib/netstandard1.0/Xamarin.Forms.Maps.xml",
-        "lib/portable-win+net45+wp80+win81+wpa81/Design/Xamarin.Forms.Maps.Design.dll",
-        "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Maps.dll",
-        "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Maps.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10/Design/Xamarin.Forms.Maps.Design.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10/Xamarin.Forms.Maps.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10/Xamarin.Forms.Maps.xml",
         "lib/uap10.0/Design/Xamarin.Forms.Maps.Design.dll",
         "lib/uap10.0/Xamarin.Forms.Maps.UWP.dll",
         "lib/uap10.0/Xamarin.Forms.Maps.UWP.pri",
@@ -26247,7 +26210,7 @@
         "lib/wpa81/Xamarin.Forms.Maps.WinRT.Phone.dll",
         "lib/wpa81/Xamarin.Forms.Maps.WinRT.Phone.pri",
         "lib/wpa81/Xamarin.Forms.Maps.dll",
-        "xamarin.forms.maps.2.5.0.91635.nupkg.sha512",
+        "xamarin.forms.maps.2.3.4.231.nupkg.sha512",
         "xamarin.forms.maps.nuspec"
       ]
     },
@@ -26259,14 +26222,15 @@
   },
   "projectFileDependencyGroups": {
     "": [
-      "Microsoft.NETCore.UniversalWindowsPlatform >= 6.0.2",
-      "Xamarin.Forms >= 2.5.0.91635",
-      "Xamarin.Forms.Maps >= 2.5.0.91635"
+      "Microsoft.NETCore.UniversalWindowsPlatform >= 6.0.4",
+      "Xamarin.Forms >= 2.3.4.231",
+      "Xamarin.Forms.Maps >= 2.3.4.231"
     ],
     "UAP,Version=v10.0.14393": []
   },
   "packageFolders": {
-    "C:\\Users\\Developer\\.nuget\\packages\\": {}
+    "C:\\Users\\Developer\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {}
   },
   "project": {
     "restore": {
@@ -26277,9 +26241,13 @@
       "packagesPath": "C:\\Users\\Developer\\.nuget\\packages\\",
       "outputPath": "C:\\SharedProjects\\vs2017\\XamarinWPFSamples\\SampleMapsApp\\SampleMapsApp\\SampleMapsApp.UWP\\obj\\",
       "projectStyle": "ProjectJson",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\"
+      ],
       "configFilePaths": [
         "C:\\Users\\Developer\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -26297,9 +26265,9 @@
       }
     },
     "dependencies": {
-      "Microsoft.NETCore.UniversalWindowsPlatform": "[6.0.2, )",
-      "Xamarin.Forms": "2.5.0.91635",
-      "Xamarin.Forms.Maps": "2.5.0.91635"
+      "Microsoft.NETCore.UniversalWindowsPlatform": "[6.0.4, )",
+      "Xamarin.Forms": "[2.3.4.231, )",
+      "Xamarin.Forms.Maps": "[2.3.4.231, )"
     },
     "frameworks": {
       "uap10.0.14393": {}

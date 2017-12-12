@@ -23,8 +23,6 @@ namespace SampleMaps2017App.UWP
     {
         MapControl nativeMap;
         List<CustomPin> customPins;
-        // XamarinMapOverlay mapOverlay;
-        // bool xamarinOverlayShown = false;
 
         protected override void OnElementChanged(ElementChangedEventArgs<Map> e)
         {
@@ -32,9 +30,7 @@ namespace SampleMaps2017App.UWP
 
             if (e.OldElement != null)
             {
-                // nativeMap.MapElementClick -= OnMapElementClick;
                 nativeMap.Children.Clear();
-                // mapOverlay = null;
                 nativeMap = null;
             }
 

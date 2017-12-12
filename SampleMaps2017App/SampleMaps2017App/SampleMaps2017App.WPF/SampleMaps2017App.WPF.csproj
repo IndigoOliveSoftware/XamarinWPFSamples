@@ -64,13 +64,13 @@
       <HintPath>..\..\packages\Xamarin.Forms.Maps.2.5.0.91635\lib\netstandard1.0\Xamarin.Forms.Maps.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.Forms.Maps.WP8, Version=2.5.0.9163, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\IndigoOlive.Xamarin.Forms.Maps.WPF.2.5.0.91635-c\lib\net45\Xamarin.Forms.Maps.WP8.dll</HintPath>
+      <HintPath>..\..\packages\IndigoOlive.Xamarin.Forms.Maps.WPF.2.5.0.9163502\lib\net45\Xamarin.Forms.Maps.WP8.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.Forms.Platform, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Xamarin.Forms.2.5.0.91635\lib\netstandard1.0\Xamarin.Forms.Platform.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.Forms.Platform.WP8, Version=2.5.0.9163, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\IndigoOlive.Xamarin.Forms.Platform.WPF.2.5.0.91635-c\lib\net45\Xamarin.Forms.Platform.WP8.dll</HintPath>
+      <HintPath>..\..\packages\IndigoOlive.Xamarin.Forms.Platform.WPF.2.5.0.9163502\lib\net45\Xamarin.Forms.Platform.WP8.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.Forms.Xaml, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Xamarin.Forms.2.5.0.91635\lib\netstandard1.0\Xamarin.Forms.Xaml.dll</HintPath>
@@ -82,34 +82,14 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="CustomMapRenderer.cs" />
-    <Compile Include="MainPage.xaml.cs">
-      <DependentUpon>MainPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Services\PlatformServices_WPF.cs" />
-    <Page Include="MainPage.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="MainWindow.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="MainWindow.xaml.cs">
-      <DependentUpon>MainWindow.xaml</DependentUpon>
-      <SubType>Code</SubType>
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
-    <Page Include="Resources.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="ThemeResources.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
+    <Compile Include="Services\PlatformServices_WPF.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -139,6 +119,26 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\SampleMaps2017App\SampleMaps2017App.csproj">
+      <Project>{9a662828-96fc-4865-a611-3d2199218a12}</Project>
+      <Name>SampleMaps2017App</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ThemeResources.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
     <Resource Include="RightPlatformButton.png" />
   </ItemGroup>
   <ItemGroup>
@@ -146,12 +146,6 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="BackPlatformButton.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\SampleMaps2017App\SampleMaps2017App.csproj">
-      <Project>{9a662828-96fc-4865-a611-3d2199218a12}</Project>
-      <Name>SampleMaps2017App</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
