@@ -2,6 +2,8 @@
 
 The samples in this repository demonstrate how to use the Visual Studio NuGet Package IndigoOlive.Xamarin.Forms.Platform.WPF and the NuGet Package IndigoOlive.Xamarin.Forms.Maps.WPF.
 
+For tips on using with Android see [AndroidReadMe.md](AndroidReadMe.md)
+
 The simplest and fastest way to get going is to download the IndigoOliveWPFVISX.vsix located in the Template directory of this Repository.
 
 ## Using IndigoOliveWPFVISX.vsix
