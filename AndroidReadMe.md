@@ -1,28 +1,30 @@
 # IndigoOliveWPFVISX.vsix and Android
 
-If you use the IndigoOliveWPFVISX.vsix MasterDetailPCLMaps installer and you run Xamarin.Forms version 2.3.4.231 you will need to adjust the Android app as follows:
+If you use the IndigoOliveWPFVSIX.vsix MasterDetailPCLMaps installer and you run Xamarin.Forms version 2.3.4.231(Default).  If you change to a newer version you will need to adjust the Android app as follows:
 
 ## AndroidManifest.xml
 
-In the AndroidManifest.xml about line 30 you need to comment out the following line:
+In the AndroidManifest.xml about line 30 you need to un-comment the following line:
 
     <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
 
 ## CustomMapRenderer
 
-### Comment out this section on or about line 25:
+### Un-Comment this section on or about line 25:
 
     public CustomMapRenderer(Context context) : base(context) {
         AutoPackage = false;
     }
 
-### Comment out the line on or about line 54:
+### Un-Comment the line on or about line 54:
 
     protected override void OnMapReady(GoogleMap googleMap)
 	
-### Un-Comment the line on or about line 55:
+### Comment out the line on or about line 55:
 
     public void OnMapReady (GoogleMap googleMap)
+
+# MyProject.Android
 
 ### on or about line 129
 

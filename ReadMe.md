@@ -4,9 +4,9 @@ The samples in this repository demonstrate how to use the Visual Studio NuGet Pa
 
 For tips on using with Android see [AndroidReadMe.md](AndroidReadMe.md)
 
-The simplest and fastest way to get going is to download the IndigoOliveWPFVISX.vsix located in the Template directory of this Repository.
+The simplest and fastest way to get going is to download the IndigoOliveWPFVSIX.vsix located in the Template directory of this Repository.
 
-## Using IndigoOliveWPFVISX.vsix
+## Using IndigoOliveWPFVSIX.vsix
 
 Download the file to your computer.
 
