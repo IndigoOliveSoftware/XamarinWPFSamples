@@ -11,21 +11,21 @@ second hand, and is just here as a reference.
 
 Open Microsoft Visual Studio
 
-![Visual Studio 2017](images/VS2017.jpg)
+![Visual Studio 2017](../images/VS2017.jpg)
 
 Create a new Cross Platform Xamarin App with the name: SampleMapsApp.
 
-![Xamarin New Project](images/XamarinNewMapsProject.jpg)
+![Xamarin New Project](../images/XamarinNewMapsProject.jpg)
 
 Select Master Detail and PCL type project and click Finish.
 
-![Xamarin Selections](images/XamarinChoice.jpg)
+![Xamarin Selections](../images/XamarinChoice.jpg)
 
 ### Add the WPF project
 
 Add a new project to the solution.
 
-![Visual Studio Add New Project](images/VSAddNewProj.jpg)
+![Visual Studio Add New Project](../images/VSAddNewProj.jpg)
 
 To keep the project structure, browse for project location.
 
@@ -43,13 +43,13 @@ If your project is located at C:\MyProjects\SampleMapsApp, the structure will lo
 
 So, browse to the C:\MyProjects\SampleMapsApp\SampleMapsApp
 
-![Sample App Directory Select image](images/VSNewMapsWPFLoc.jpg)
+![Sample App Directory Select image](../images/VSNewMapsWPFLoc.jpg)
 
 Now select C#
 
 Select the Windows Classic Desktop -> WPF App (.NET Framework)
 
-![Visual Studio New Maps WPF](images/VSNewMapsWPF.jpg)
+![Visual Studio New Maps WPF](../images/VSNewMapsWPF.jpg)
 
 Give the project the name: SampleMapsApp.WPF
 
@@ -61,11 +61,11 @@ Right click the SampleMapsApp.WPF project.
 
 Select Manage Nuget Packages
 
-![Visual Studio Manage NuGet](images/VSManageNuGet.jpg)
+![Visual Studio Manage NuGet](../images/VSManageNuGet.jpg)
 
 Browse and Install IndigoOlive.Xamarin.Forms.Platform.WPF by John Russell
 
-![Visual Studio Add WPF NuGet](images/AddXamarinWPF_B.jpg)
+![Visual Studio Add WPF NuGet](../images/AddXamarinWPF_B.jpg)
 
 Accept the license agreement.
 
@@ -204,11 +204,11 @@ to:
 
 In the SampleMapsApp.WPF right click onto References and select Add...
 
-![Sample Maps App Selection image](images/SampleMapsAppWPFReferences.jpg)
+![Sample Maps App Selection image](../images/SampleMapsAppWPFReferences.jpg)
 
 Then add a reference to the Project in the solution called: SampleApp
 
-![Sample Maps App Reference Select image](images/SampleMapsAppRef.jpg)
+![Sample Maps App Reference Select image](../images/SampleMapsAppRef.jpg)
 
 ### Set as startup project
 
@@ -384,7 +384,7 @@ Add the following code to that file:
 To enable the Maps capability with Xamarin.Forms.Platform.WPF you must also add
 the Xamarin.Forms.Maps.WPF by John Russell
 
-![Add the Xamarin.Forms.Maps.WPF NuGet](images/AddXamarinMapsWPF.jpg)
+![Add the Xamarin.Forms.Maps.WPF NuGet](../images/AddXamarinMapsWPF.jpg)
 
 ## Build
 
@@ -412,7 +412,7 @@ Using Inno Script Studio:
 
 Inno Script Studio Installer can be found at: [Inno Script Studio](https://www.kymoto.org/products/inno-script-studio)
 
-Open the Script file [SampleMapsApp.WPF.iss](SampleMapsApp/Inno/SampleMapsApp.WPF.iss) using Inno Script Studio
+Open the Script file [SampleMapsApp.WPF.iss](../SampleMapsApp/Inno/SampleMapsApp.WPF.iss) using Inno Script Studio
 
 Then in Inno Script Studio select the Compile button.
 
