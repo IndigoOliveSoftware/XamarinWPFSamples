@@ -47,7 +47,7 @@ to
     public global::Android.Views.View GetInfoWindow(Marker marker) {
 	
 
-## Newer versions of Xamarin
+## Older versions of Xamarin
 
-The newer versions of Xamarin will not require all of these changes.
+The versions of Xamarin 2.3.4.231 and older will not require all of these changes.
 	
