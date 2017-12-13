@@ -1,6 +1,6 @@
 # Use the IndigoOliveWPFVISX.vsix Instead.
 
-[Use IndigoOliveWPFVISX.vsix Instead](..\)
+[Use IndigoOliveWPFVISX.vsix Instead](../ReadMe.md)
 
 The IndigoOliveWPFVISX.vsix can create Solutions OR Projects!
 
