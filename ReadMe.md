@@ -44,7 +44,7 @@ For tips on using with Android see [AndroidReadMe.md](AndroidReadMe.md)
 
 ## Install on Windows 7
 
-For instructions on how to install on Windows 7 see [Documentation/Windows7ReadMe.md](Windows7ReadMe.md)
+For instructions on how to install on Windows 7 see [Documentation/Windows7ReadMe.md](Documentation/Windows7ReadMe.md)
 
 ## Authors
 

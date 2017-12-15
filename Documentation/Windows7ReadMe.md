@@ -14,7 +14,7 @@ Right click on the SampleMaps2017App.WPF project and select build.
 
 Using Inno Script Studio:
 
-![About Inno Script Studio](images/AboutInno.jpg)
+![About Inno Script Studio](../images/AboutInno.jpg)
 
 Inno Script Studio Installer can be found at: [Inno Script Studio](https://www.kymoto.org/products/inno-script-studio)
 
