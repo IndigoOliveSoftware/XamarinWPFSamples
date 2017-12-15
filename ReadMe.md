@@ -36,7 +36,7 @@ Make your desired selections as shown:
 
 Press create, and your project is created:
 
-![Visual Studio NET Project Created](images/VSSampleNetApp.jpg)
+![Visual Studio NET Project Created](images/VSSampleNETApp.jpg)
 
 ## Android notes
 

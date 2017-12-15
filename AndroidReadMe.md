@@ -1,6 +1,6 @@
 # IndigoOliveWPFVISX.vsix and Android
 
-If you use the IndigoOliveWPFVSIX.vsix MasterDetailPCLMaps installer and you run Xamarin.Forms version 2.3.4.231(Default).  If you change to a newer version you will need to adjust the Android app as follows:
+If you use the IndigoOliveWPFVSIX.vsix MasterDetailPCLMaps or the IndigoOliveNETVSIX.vsix MasterDetailNETMaps installer and you run Xamarin.Forms version 2.3.4.231(Default) or Xamarin.Forms version 2.5.0.91635(NET).  If you change to a newer or older version you will need to adjust the Android app as follows:
 
 ## AndroidManifest.xml
 
@@ -51,3 +51,11 @@ to
 
 The versions of Xamarin 2.3.4.231 and older will not require all of these changes.
 	
+## VSIX does not need these changes.
+
+All the projects and solutions built for Android from any of the VSIX installers, do not need any of these changes.
+
+## Authors
+
+John Russell - Senior Software Engineer II - Indigo Olive Software, Inc.
+

@@ -6,4 +6,7 @@ The IndigoOliveWPFVSIX.vsix can create Solutions OR Projects!
 
 The older PCL project can still be created using IndigoOliveWPFVSIX.vsix.
 
+## Authors
+
+John Russell - Senior Software Engineer II - Indigo Olive Software, Inc.
 
