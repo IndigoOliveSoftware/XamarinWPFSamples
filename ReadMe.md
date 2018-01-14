@@ -38,6 +38,26 @@ Press create, and your project is created:
 
 ![Visual Studio NET Project Created](images/VSSampleNETApp.jpg)
 
+## Add the Registration Code
+
+Go to http://wpfnuget.indigoolive.com and register for a login.  Verify your email.  Purchase a license package.  After approved by PayPal, a registration code will be emailed to the email address you used to register a login.
+
+Open App.xaml.cs and change the code from:
+
+```C#
+        public App() {
+            Xamarin.Forms.Forms.Init("INSERT-LICENSE-HERE");
+        }
+```
+
+to:
+
+```C#
+        public App() {
+            Xamarin.Forms.Forms.Init("HG2oNeQtuA1mErizfrOsXkZKcBSBay7WotqvVQ5LQZXwc0kvvT4LzcWtXWLkLWVoK4XVJk6KF13Szd+gTDhX/Y5B3hnz94BVA=K6MkhzzPR0on/eA26AKhq/+D7iW7qEETBzU/BnttNI=bHujYw0kkrWK1MaEQ69LQ==");
+        }
+```
+
 ## Android notes
 
 For tips on using with Android see [AndroidReadMe.md](AndroidReadMe.md)
