@@ -1,5 +1,7 @@
 # Use the IndigoOliveNETVISX.vsix
 
+Recently updated to the new FREE platform WPF.  FREE for commercial use.
+
 [Use IndigoOliveNETVSIX.vsix](../ReadMe.md)
 
 The IndigoOliveWPFVSIX.vsix can create Solutions OR Projects!

@@ -1,5 +1,9 @@
 # XamarinWPFSamples
 
+Because Xamarin is about to release WPF,
+
+IndigoOlive.Xamarin.Forms.Platform.WPF is now FREE for commercial use.
+
 The samples in this repository demonstrate how to use the Visual Studio NuGet Package IndigoOlive.Xamarin.Forms.Platform.WPF and the NuGet Package IndigoOlive.Xamarin.Forms.Maps.WPF.
 
 The simplest and fastest way to get going is to download the IndigoOliveNETVSIX.vsix located in the Template directory of this Repository.
@@ -37,26 +41,6 @@ Make your desired selections as shown:
 Press create, and your project is created:
 
 ![Visual Studio NET Project Created](images/VSSampleNETApp.jpg)
-
-## Add the Registration Code
-
-Go to http://wpfnuget.indigoolive.com and register for a login.  Verify your email.  Purchase a license package.  After approved by PayPal, a registration code will be emailed to the email address you used to register a login.
-
-Open App.xaml.cs and change the code from:
-
-```C#
-        public App() {
-            Xamarin.Forms.Forms.Init("INSERT-LICENSE-HERE");
-        }
-```
-
-to:
-
-```C#
-        public App() {
-            Xamarin.Forms.Forms.Init("HG2oNeQtuA1mErizfrOsXkZKcBSBay7WotqvVQ5LQZXwc0kvvT4LzcWtXWLkLWVoK4XVJk6KF13Szd+gTDhX/Y5B3hnz94BVA=K6MkhzzPR0on/eA26AKhq/+D7iW7qEETBzU/BnttNI=bHujYw0kkrWK1MaEQ69LQ==");
-        }
-```
 
 ## Android notes
 

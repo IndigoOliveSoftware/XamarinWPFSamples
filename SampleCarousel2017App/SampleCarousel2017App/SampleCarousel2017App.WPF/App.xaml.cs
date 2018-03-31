@@ -19,7 +19,7 @@ namespace SampleCarousel2017App.WPF {
         /// executed, and as such is the logical equivalent of main() or WinMain().
         /// </summary>
         public App() {
-            Xamarin.Forms.Forms.Init("INSERT-LICENSE-HERE");
+            Xamarin.Forms.Forms.Init();
         }
     }
 }

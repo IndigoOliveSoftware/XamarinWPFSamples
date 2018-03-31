@@ -18695,7 +18695,7 @@
       ]
     },
     "Microsoft.NETCore.UniversalWindowsPlatform/6.0.4": {
-      "sha512": "D0sTB0Ng5r69XKBQxdogba180v7+9ckEtrovPHnPhkL+bj+qZ9wONyWTOTn+kvPhSkeEUFRECEFtOyhYNDIUTA==",
+      "sha512": "/jZ4eVx0ODZbctYsuIRZ38eTivPiyZze4b7UcE+LXjBe62M2MVBEYYJpP6mkAngup4I30USLzXrGqZAO9EP54w==",
       "type": "package",
       "path": "microsoft.netcore.universalwindowsplatform/6.0.4",
       "files": [

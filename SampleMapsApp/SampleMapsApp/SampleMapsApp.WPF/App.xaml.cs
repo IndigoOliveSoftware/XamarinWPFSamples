@@ -19,7 +19,7 @@ namespace SampleMapsApp.WPF
         /// </summary>
         public App()
         {
-            Xamarin.Forms.Forms.Init("INSERT-LICENSE-HERE");
+            Xamarin.Forms.Forms.Init();
         }
     }
 }

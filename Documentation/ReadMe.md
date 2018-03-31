@@ -1,5 +1,9 @@
 # XamarinWPFSamples
 
+Because Xamarin is about to release WPF,
+
+IndigoOlive.Xamarin.Forms.Platform.WPF is now FREE for commercial use.
+
 The samples in this repository demonstrate how to use the Visual Studio NuGet Package IndigoOlive.Xamarin.Forms.Platform.WPF and the NuGet Package IndigoOlive.Xamarin.Forms.Maps.WPF.
 
 If you are a seasoned developer, the you only need to make sure that the secions below titled: "Modify App.xaml", "Modify App.xaml.cs" and "Add CustomMapRenderer" are completed.  The rest of this should be
@@ -163,7 +167,7 @@ to:
 			/// executed, and as such is the logical equivalent of main() or WinMain().
 			/// </summary>
 			public App() {
-				Xamarin.Forms.Forms.Init("INSERT-LICENSE-HERE");
+				Xamarin.Forms.Forms.Init();
 			}
 		}
 	}
@@ -179,27 +183,6 @@ What was changed?
 
 4) Using Xamarin.Forms and Using Xamarin.Forms.Platform.WPF was added.
 
-
-### Add the Registration Code
-
-Go to http://wpfnuget.indigoolive.com and register for a login.  Verify your email.  Purchase a license package.  After approved by PayPal, a registration code will be emailed to the email address you used to register a login.
-
-Open App.xaml.cs and change the code from:
-
-```C#
-        public App() {
-            Xamarin.Forms.Forms.Init("INSERT-LICENSE-HERE");
-        }
-```
-
-to:
-
-```C#
-        public App() {
-            Xamarin.Forms.Forms.Init("HG2oNeQtuA1mErizfrOsXkZKcBSBay7WotqvVQ5LQZXwc0kvvT4LzcWtXWLkLWVoK4XVJk6KF13Szd+gTDhX/Y5B3hnz94BVA=K6MkhzzPR0on/eA26AKhq/+D7iW7qEETBzU/BnttNI=bHujYw0kkrWK1MaEQ69LQ==");
-        }
-```
-    
 ### Add a reference
 
 In the SampleMapsApp.WPF right click onto References and select Add...
