@@ -42,6 +42,14 @@ Press create, and your project is created:
 
 ![Visual Studio NET Project Created](images/VSSampleNETApp.jpg)
 
+## Other Build Notes
+
+If you have problems building a PCL project, try removing this line:
+
+[assembly: XamlCompilation(XamlCompilationOptions.Compile)]
+
+from App.xaml in the PCL project.
+
 ## Android notes
 
 For tips on using with Android see [AndroidReadMe.md](AndroidReadMe.md)
